@@ -91,3 +91,84 @@ a {
 
  @apply hover:text-white/100;
 }
+
+.btn-primary {
+ @apply btn-label
+								rel
+								bg-grad-aqua-l-100
+								z-[1]
+								inline-block
+								min-h-[6.4rem]
+								min-w-[17rem]
+								overflow-hidden
+								rounded-[10px]
+						text-gray-800;
+
+ @apply xl:min-h-[5.2rem]
+								xl:min-w-[14rem]
+								xl:rounded-[8px]
+								xl:px-[1.7rem]
+								xl:py-4;
+
+ @apply xl:min-h-[5.2rem]
+								xl:min-w-[14rem]
+								xl:rounded-[8px]
+								xl:px-[1.7rem]
+								xl:py-4;
+
+ @apply lg:min-h-[4.6rem]
+								lg:min-w-[12.4rem]
+								lg:px-[1.7rem]
+								lg:py-2.5;
+
+ @apply after:absolute
+								after:inset-0
+								after:z-[-1]
+								after:bg-aqua-500
+								after:opacity-0
+								after:content-[""];
+
+ @apply hover:after:opacity-100;
+
+ &--outline {
+  @apply bg-none;
+  border: solid #00f6ff 2px;
+  color: #00f6ff;
+  &:hover {
+   color: #000000;
+  }
+ }
+}
+
+.btn-rounded {
+ @apply h-56
+								w-56
+								items-center
+								justify-center
+								rounded-[50%]
+								border-[0.2rem]
+								border-solid
+								border-aqua-500
+								bg-[none]
+
+								text-[1.8rem]
+								font-medium
+								text-aqua-500;
+
+ @apply xl:h-[11.5rem]
+								xl:w-[11.4rem]
+								xl:text-[1.4rem];
+
+ @apply lg:h-[8.8rem]
+								lg:w-[8.8rem]
+								lg:text-[1.1rem];
+
+ @apply md:h-[6.8rem]
+								md:w-[6.9rem]
+								md:text-[1rem];
+
+ &__label {
+  @apply inline-block
+									text-left;
+ }
+}

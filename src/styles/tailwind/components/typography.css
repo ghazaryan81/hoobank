@@ -97,8 +97,7 @@ h2,
 
 .btn-label {
  @apply text-[1.8rem]
-								font-500
-								text-white;
+								font-500;
 
  @apply xl:text-[1.2rem];
  @apply lg:text-[1.2rem];

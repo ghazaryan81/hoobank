@@ -10,5 +10,6 @@ export const backgroundImage = {
 		"grad-gray-l-500": "linear-gradient(122deg, #fff 0%, #14101d 98.96%)",
 		"grad-gray-l-600": "linear-gradient(131deg, #fff 16.15%, #6d6d6d 57.81%, #11101d 93.23%)",
 		"grad-gray-l-700": "linear-gradient(147deg, #fff 0%, #14101d 93.91%)",
-		"grad-gray-l-800": "linear-gradient(149deg, #fff 0%, #14101d 90.6%)"
+		"grad-gray-l-800": "linear-gradient(149deg, #fff 0%, #14101d 90.6%)",
+		"none": "none"
 };
