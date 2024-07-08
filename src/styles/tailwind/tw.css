@@ -29,7 +29,7 @@ $sm: $mq.sm;
 
 html,
 body {
- @apply bg-dark-blue-500
+ @apply bg-gray-800
 								font-400
 								text-white;
 }
@@ -90,33 +90,4 @@ a {
 								whitespace-nowrap;
 
  @apply hover:text-white/100;
-}
-
-.s2 {
- background: url(../../assets/img/tmp/sections/2_1.png) no-repeat center top;
- min-height: 9.4rem;
- width: 100%;
-
- @media (max-width: $xl) {
-  background: url(../../assets/img/tmp/sections/2_2.png) no-repeat center top;
-  min-height: 14rem;
- }
-
- @media (max-width: $lg) {
-  background: url(../../assets/img/tmp/sections/2_3.png) no-repeat center top;
-  min-height: 14rem;
- }
-
- @media (max-width: $md) {
-  background: url(../../assets/img/tmp/sections/2_4.png) no-repeat center top;
- }
-}
-
-.btn-primary {
- text-decoration: none;
- min-width: 170px;
- min-height: 64px;
-}
-.btn-unique {
- text-decoration: none;
 }
