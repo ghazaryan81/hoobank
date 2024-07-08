@@ -297,13 +297,10 @@ a:not(#\#){font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 25
 .btn-primary:not(#\#){position:relative;left:0px;top:0px;z-index:1;display:inline-block;min-height:6.4rem;min-width:17rem;overflow:hidden;border-radius:10px;background-image:linear-gradient(180deg, #def9fa 0.89%, #bef3f5 17.23%, #9dedf0 42.04%, #7de7eb 55.12%, #5ce1e6 71.54%, #33bbcf 100%);background-image:var(--background-image-grad-aqua-l-100);--tw-text-opacity:1;color:rgba(0, 4, 14, 1);color:rgba(0, 4, 14, var(--tw-text-opacity));font-size:1.8rem;font-weight:500;font-weight:var(--font-weight-500);}
 .btn-primary:not(#\#)::after{position:absolute;top:0px;right:0px;bottom:0px;left:0px;z-index:-1;--tw-bg-opacity:1;background-color:rgba(0, 246, 255, 1);background-color:rgba(0, 246, 255, var(--tw-bg-opacity));opacity:0;opacity:var(--opacity-0);--tw-content:"";content:"";content:var(--tw-content);}
 .btn-primary:hover:not(#\#)::after{content:var(--tw-content);opacity:1;opacity:var(--opacity-100);}
-.btn-primary--outline:not(#\#){background-image:none;background-image:var(--background-image-none);
-  border:solid #00f6ff 2px;
-  color:#00f6ff;}
-.btn-primary--outline:hover:not(#\#){
-   color:#000000;
-  }
-.btn-rounded:not(#\#){height:14rem;width:14rem;align-items:center;justify-content:center;border-radius:50%;border-width:0.2rem;border-style:solid;--tw-border-opacity:1;border-color:rgba(0, 246, 255, 1);border-color:rgba(0, 246, 255, var(--tw-border-opacity));background-color:none;font-size:1.8rem;font-weight:500;--tw-text-opacity:1;color:rgba(0, 246, 255, 1);color:rgba(0, 246, 255, var(--tw-text-opacity));}
+.btn-primary--outline:not(#\#){border-width:2px;border-color:solid;--tw-text-opacity:1;color:rgba(0, 246, 255, 1);color:rgba(0, 246, 255, var(--tw-text-opacity));}
+.btn-primary--outline:hover:not(#\#){--tw-text-opacity:1;color:rgba(0, 0, 0, 1);color:rgba(0, 0, 0, var(--tw-text-opacity));}
+.btn-primary--outline:not(#\#){background-image:none;background-image:var(--background-image-none);}
+.btn-rounded:not(#\#){height:14rem;width:14rem;align-items:center;justify-content:center;border-radius:50%;border-width:0.2rem;border-style:solid;--tw-border-opacity:1;border-color:rgba(0, 246, 255, 1);border-color:rgba(0, 246, 255, var(--tw-border-opacity));background-image:none;background-image:var(--background-image-none);font-size:1.8rem;font-weight:500;--tw-text-opacity:1;color:rgba(0, 246, 255, 1);color:rgba(0, 246, 255, var(--tw-text-opacity));}
 .btn-rounded__label:not(#\#){display:inline-block;text-align:left;}
 @media (max-width: 73.125rem){
  .segment-v2:not(#\#){font-size:2rem;}
