@@ -1,0 +1,110 @@
+$xl: $mq.xl;
+$lg: $mq.lg;
+$md: $mq.md;
+$sm: $mq.sm;
+
+@layer typography {
+}
+
+h1,
+.page-title {
+ @apply text-720
+								font-600
+								leading-1010
+								text-white;
+
+ @apply lg:text-600
+								lg:leading-900;
+
+ @apply md:text-470
+								md:leading-710;
+
+ @apply sm:text-[2.4rem]
+								sm:leading-[3.6rem];
+}
+
+h2,
+.section-title {
+ @apply text-[4.8rem]
+								font-700
+								leading-[7.7rem]
+								text-white;
+
+ @apply lg:text-[3.9rem]
+								lg:leading-none;
+
+ @apply md:text-[3rem]
+								md:leading-none;
+
+ @apply sm:text-[2.4rem]
+								md:leading-none;
+}
+
+.segment-v1 {
+ @apply text-[4.089rem]
+								font-600
+								text-white;
+
+ @apply lg:text-[4.089rem];
+}
+
+.segment-v2 {
+ @apply text-[2rem]
+								leading-[2.4rem]
+								text-white;
+
+ @apply xl:text-[2rem];
+}
+
+.segment-v3 {
+ @apply text-[1.8rem]
+								font-600
+								text-white;
+
+ @apply xl:text-[1.8rem];
+ @apply md:text-[1.6rem];
+}
+
+.descr-v1 {
+ @apply text-[1.8rem]
+								leading-[3.2rem]
+								text-white
+								opacity-70;
+
+ @apply xl:text-[1.4rem]
+								xl:leading-[2.1rem];
+}
+
+.descr-v2 {
+ @apply text-[1.6rem]
+								leading-[2.4rem]
+								text-white
+								opacity-70;
+
+ @apply xl:text-[1.4rem]
+								xl:leading-[2.1rem];
+}
+
+.r-btn-label {
+ @apply text-[1.8rem]
+								font-500
+								text-white;
+
+ @apply xl:text-[1.4rem];
+ @apply lg:text-[1.1rem];
+ @apply md:text-[1rem];
+}
+
+.btn-label {
+ @apply text-[1.8rem]
+								font-500
+								text-white;
+
+ @apply xl:text-[1.2rem];
+ @apply lg:text-[1.2rem];
+}
+
+.link-v1 {
+ @apply text-[1.6rem]
+								leading-[2.4rem];
+}

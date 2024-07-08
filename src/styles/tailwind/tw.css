@@ -1,0 +1,122 @@
+@import url("./base/base.css");
+@import url("./base/root.css");
+@import url("./base/fonts.css");
+@import url("./components/button.css");
+@import url("./components/typography.css");
+@import url("./components/scroll.css");
+@import url("./components/ic.css");
+@import url("./components/logos.css");
+@import url("./components/burger.css");
+@import url("./components/badge.css");
+@import url("./components/stamp.css");
+@import url("./components/menu.css");
+@import url("./components/descr.css");
+@import url("./components/logo.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$xl: $mq.xl;
+$lg: $mq.lg;
+$md: $mq.md;
+$sm: $mq.sm;
+
+:root {
+ @apply font-primary
+								text-62-5p;
+}
+
+html,
+body {
+ @apply bg-dark-blue-500
+								font-400
+								text-white;
+}
+
+a {
+ @apply font-400
+								text-white/70;
+}
+
+.wrapper {
+ @apply mx-auto
+								max-w-xl;
+}
+
+.fix {
+ @apply mx-auto
+								max-w-xl
+								px-[1.6rem];
+
+ @apply xl:max-w-lg;
+ @apply lg:max-w-md;
+ @apply md:max-w-sm;
+}
+
+.main-header {
+ @apply pb-[3rem]
+								pt-[3.2rem];
+
+ @apply md:pt-[1.7rem];
+
+ &__fix {
+  @apply flex
+									min-h-[3.2rem]
+									items-center
+									justify-between;
+
+  @apply lg:flex-col;
+ }
+}
+
+.logo {
+ @apply inline-block;
+ @apply lg:pb-[2.1rem];
+}
+
+.main-nav {
+ @apply lg:hidden;
+}
+
+.list-links {
+ @apply flex
+								gap-x-[3.1rem];
+}
+
+.link {
+ @apply link-v1
+								inline-block
+								whitespace-nowrap;
+
+ @apply hover:text-white/100;
+}
+
+.s2 {
+ background: url(../../assets/img/tmp/sections/2_1.png) no-repeat center top;
+ min-height: 9.4rem;
+ width: 100%;
+
+ @media (max-width: $xl) {
+  background: url(../../assets/img/tmp/sections/2_2.png) no-repeat center top;
+  min-height: 14rem;
+ }
+
+ @media (max-width: $lg) {
+  background: url(../../assets/img/tmp/sections/2_3.png) no-repeat center top;
+  min-height: 14rem;
+ }
+
+ @media (max-width: $md) {
+  background: url(../../assets/img/tmp/sections/2_4.png) no-repeat center top;
+ }
+}
+
+.btn-primary {
+ text-decoration: none;
+ min-width: 170px;
+ min-height: 64px;
+}
+.btn-unique {
+ text-decoration: none;
+}

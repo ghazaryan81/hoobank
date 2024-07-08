@@ -1,0 +1,16 @@
+/* prettier-ignore */
+@font-face {
+  font-family: "Abel";
+  src:
+      url("../../assets/fonts/Abel/Abel-Regular.eot?#iefix")                  format("embedded-opentype")
+    , url("../../assets/fonts/Abel/Abel-Regular.woff2")                       format("woff2")
+    , url("../../assets/fonts/Abel/Abel-Regular.woff")                        format("woff")
+    , url("../../assets/fonts/Abel/Abel-Regular.ttf")                         format("truetype")
+    , url("../../assets/fonts/Abel/Abel-Regular.otf")                         format("opentype")
+    , url("../../assets/fonts/Abel/Abel-Regular.f.svg#Abel-Regular")          format("svg")
+    ;
+
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

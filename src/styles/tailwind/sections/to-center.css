@@ -1,0 +1,36 @@
+@layer components {
+ .to-center {
+  @apply mx-auto
+        text-center;
+ }
+
+ .to-center__sup {
+  @apply sup-v2
+        block;
+ }
+
+ .to-center__title {
+  @apply section-title-v1;
+ }
+
+ .to-center__descr {
+  @apply body-txt-v1;
+ }
+
+ .to-center--portfolio-header {
+  @apply max-w-[73.3rem]
+        ~pt-[4.7rem]/[9.7rem]
+        ~pb-[4.7rem]/[9.7rem];
+
+  .to-center__sup {
+   @apply pb-[0.4rem];
+  }
+
+  .to-center__title {
+   @apply ~pb-[1.7rem]/[2.4rem];
+  }
+  .to-center__descr {
+   @apply pb-[31px];
+  }
+ }
+}
