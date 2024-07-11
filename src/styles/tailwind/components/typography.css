@@ -3,41 +3,41 @@ $lg: $mq.lg;
 $md: $mq.md;
 $sm: $mq.sm;
 
-@layer typography {
-}
-
-h1,
 .page-title {
  @apply text-720
 								font-600
 								leading-1010
 								text-white;
 
- @apply lg:text-600
-								lg:leading-900;
+ @apply xl:text-600
+								xl:leading-900;
 
- @apply md:text-470
-								md:leading-710;
+ @apply lg:text-470
+								lg:leading-710;
 
- @apply sm:text-[2.4rem]
-								sm:leading-[3.6rem];
+ @apply md:text-[2.4rem]
+								md:leading-[3.6rem];
+
+ @apply my-0
+								md:mx-auto
+								md:max-w-[24.44rem]
+								md:text-center;
 }
 
-h2,
 .section-title {
  @apply text-[4.8rem]
 								font-700
 								leading-[7.7rem]
 								text-white;
 
- @apply lg:text-[3.9rem]
+ @apply xl:text-[3.9rem]
+								xl:leading-none;
+
+ @apply lg:text-[3rem]
 								lg:leading-none;
 
- @apply md:text-[3rem]
-								md:leading-none;
-
- @apply sm:text-[2.4rem]
-								md:leading-none;
+ @apply md:text-[2.4rem]
+								md:leading-[1.3];
 }
 
 .segment-v1 {
@@ -97,8 +97,7 @@ h2,
 
 .btn-label {
  @apply text-[1.8rem]
-								font-500
-								text-white;
+								font-500;
 
  @apply xl:text-[1.2rem];
  @apply lg:text-[1.2rem];
