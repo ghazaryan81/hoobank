@@ -95,20 +95,14 @@ a {
 .btn-primary {
  @apply btn-label
 								rel
-								bg-grad-aqua-l-100
 								z-[1]
 								inline-block
 								min-h-[6.4rem]
 								min-w-[17rem]
 								overflow-hidden
 								rounded-[10px]
-						text-gray-800;
-
- @apply xl:min-h-[5.2rem]
-								xl:min-w-[14rem]
-								xl:rounded-[8px]
-								xl:px-[1.7rem]
-								xl:py-4;
+								bg-grad-aqua-l-100
+								text-gray-800;
 
  @apply xl:min-h-[5.2rem]
 								xl:min-w-[14rem]
@@ -140,8 +134,8 @@ a {
  }
 }
 
-.btn-rounded {
- @apply h-56
+.btn-round {
+ @apply aspect-square
 								w-56
 								items-center
 								justify-center
@@ -154,16 +148,13 @@ a {
 								font-medium
 								text-aqua-500;
 
- @apply xl:h-[11.5rem]
-								xl:w-[11.4rem]
+ @apply xl:w-[11.4rem]
 								xl:text-[1.4rem];
 
- @apply lg:h-[8.8rem]
-								lg:w-[8.8rem]
+ @apply lg:w-[8.8rem]
 								lg:text-[1.1rem];
 
- @apply md:h-[6.8rem]
-								md:w-[6.9rem]
+ @apply md:w-[6.9rem]
 								md:text-[1rem];
 
  &__label {
