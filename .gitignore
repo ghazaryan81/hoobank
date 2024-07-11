@@ -10,8 +10,7 @@
 # _.gitignore
 # tailwind.config.ts
 
-src/assets/img/tmp
-src/assets/css/outed-tw.css
+
 
 # Auto-generated elements (production)
 #dist
@@ -152,7 +151,9 @@ next-env.d.ts
 .vscode/*
 !.vscode/extensions.json
 
-src/assets/css/tw-output.css
 
-src/assets/css/tw-output.css
-src/assets/css/tw-output.css
+
+
+src/assets/img/tmp
+
+
