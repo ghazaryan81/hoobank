@@ -11,6 +11,7 @@
 # tailwind.config.ts
 
 src/assets/img/tmp
+src/assets/css/outed-tw.css
 
 # Auto-generated elements (production)
 #dist
