@@ -12,6 +12,7 @@
 
 src/assets/img/tmp
 src/assets/css/outed-tw.css
+src/assets/css
 
 # Auto-generated elements (production)
 #dist
