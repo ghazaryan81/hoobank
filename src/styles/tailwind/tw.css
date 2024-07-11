@@ -163,46 +163,6 @@ a {
  }
 }
 
-.s9 {
- background: url(../../assets/img/tmp/sections/1-9.png) no-repeat center top;
- min-height: 45.4rem;
-
- @media (max-width: $xl) {
-  background: url(../../assets/img/tmp/sections/2-9.png) no-repeat center top;
-  min-height: 28.2rem;
- }
-
- @media (max-width: $lg) {
-  background: url(../../assets/img/tmp/sections/3-9.png) no-repeat center top;
-  min-height: 26.8rem;
- }
-
- @media (max-width: $md) {
-  background: url(../../assets/img/tmp/sections/4-9.png) no-repeat center top;
-  min-height: 34.7rem;
- }
-}
-
-/* .s2 {
- background: url(../../assets/img/tmp/sections/1-2.png) no-repeat center top;
- min-height: 77.6rem;
-
- @media (max-width: $xl) {
-  background: url(../../assets/img/tmp/sections/2-2.png) no-repeat center top;
-  min-height: 60.1rem;
- }
-
- @media (max-width: $lg) {
-  background: url(../../assets/img/tmp/sections/3-2.png) no-repeat center top;
-  min-height: 48.4rem;
- }
-
- @media (max-width: $md) {
-  background: url(../../assets/img/tmp/sections/4-2.png) no-repeat center top;
-  min-height: 67.4rem;
- }
-} */
-
 .present {
  &__fix {
   @apply pb-12
@@ -339,5 +299,45 @@ h2 {
 									md:max-w-[24.8rem]
 									md:pt-[1.0rem]
 									md:text-center;
+ }
+}
+
+/* .s7 {
+ background: url(../../assets/img/tmp/sections/1-7.png) no-repeat center top;
+ min-height: 71.1rem;
+
+ @media (max-width: $xl) {
+  background: url(../../assets/img/tmp/sections/2-7.png) no-repeat center top;
+  min-height: 63.8rem;
+ }
+
+ @media (max-width: $lg) {
+  background: url(../../assets/img/tmp/sections/3-7.png) no-repeat center top;
+  min-height: 64.7rem;
+ }
+
+ @media (max-width: $md) {
+  background: url(../../assets/img/tmp/sections/4-7.png) no-repeat center top;
+  min-height: 119rem;
+ }
+}
+ */
+.testimonials {
+ &__fix {
+  @apply py-[8rem];
+  @apply xl:pt-[8.1rem];
+ }
+}
+
+.section-title {
+ &--testimonials {
+  @apply max-w-[58rem]
+									xl:leading-[1.5];
+ }
+}
+
+.descr-v1 {
+ &--testimonials {
+  @apply max-w-[42.028rem];
  }
 }
