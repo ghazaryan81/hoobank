@@ -61,15 +61,13 @@ $sm: $mq.sm;
 								font-600
 								text-white;
 
- @apply xl:text-[1.8rem];
- @apply md:text-[1.6rem];
+ @apply lg:text-[1.5rem];
 }
 
 .descr-v1 {
  @apply text-[1.8rem]
 								leading-[3.2rem]
-								text-white
-								opacity-70;
+								text-white/70;
 
  @apply xl:text-[1.4rem]
 								xl:leading-[2.1rem];
@@ -78,8 +76,7 @@ $sm: $mq.sm;
 .descr-v2 {
  @apply text-[1.6rem]
 								leading-[2.4rem]
-								text-white
-								opacity-70;
+								text-white/70;
 
  @apply xl:text-[1.4rem]
 								xl:leading-[2.1rem];

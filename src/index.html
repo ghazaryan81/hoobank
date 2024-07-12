@@ -29,7 +29,8 @@ const headData = { appName, appThemeColor, appTitleColor,
  <body>
   <noscript><%=misc.nojs %></noscript>
   <div class="wrapper">
-   <section class="start s9">
+   <!-- -->
+   <section class="start s9 hidden">
     <div class="fix start__fix">
      <div class="box start__box">
       <div class="group">
@@ -43,6 +44,88 @@ const headData = { appName, appThemeColor, appTitleColor,
      </div>
     </div>
    </section>
+   <!-- / -->
+
+   <!-- -->
+   <section class="testimonials s7">
+    <div class="testimonials__fix">
+     <div class="testimonials__header">
+      <h2 class="testimonials__title">
+       You do the business, we’ll handle the money.
+      </h2>
+      <p class="testimonials__descr">
+       Everything you need to accept card payments and grow your business
+       anywhere on the planet.
+      </p>
+     </div>
+     <div class="testimonials__list">
+      <div class="testimonials__card">
+       <svg class="testimonials__quote" width="42.6" height="27.6">
+        <use xlink:href="<%= svg %>/sprite-ic.svg#ic-quote" />
+       </svg>
+       <p class="testimonials__card-descr">
+        Money is only a tool. It will take you wherever you wish, but it will
+        not replace you as the driver.
+       </p>
+
+       <div class="person">
+        <img
+         class="person__img"
+         src="<%= assets %>/img/person-1.png"
+         alt=""
+         width="48"
+         height="48"
+        />
+        <h3 class="person__title">Herman Jensen</h3>
+        <p class="person__descr">Founder & Leader</p>
+       </div>
+      </div>
+      <div class="testimonials__card">
+       <svg class="testimonials__quote" width="42.6" height="27.6">
+        <use xlink:href="<%= svg %>/sprite-ic.svg#ic-quote" />
+       </svg>
+       <p class="testimonials__card-descr">
+        Money is only a tool. It will take you wherever you wish, but it will
+        not replace you as the driver.
+       </p>
+
+       <div class="person">
+        <img
+         class="person__img"
+         src="<%= assets %>/img/person-2.png"
+         alt=""
+         width="48"
+         height="48"
+        />
+        <h3 class="person__title">Steve Mark</h3>
+        <p class="person__descr">Founder & Leader</p>
+       </div>
+      </div>
+      <div class="testimonials__card">
+       <svg class="testimonials__quote" width="42.6" height="27.6">
+        <use xlink:href="<%= svg %>/sprite-ic.svg#ic-quote" />
+       </svg>
+       <p class="testimonials__card-descr">
+        Money is only a tool. It will take you wherever you wish, but it will
+        not replace you as the driver.
+       </p>
+
+       <div class="person">
+        <img
+         class="person__img"
+         src="<%= assets %>/img/person-3.png"
+         alt=""
+         width="48"
+         height="48"
+        />
+        <h3 class="person__title">Kenn Gallagher</h3>
+        <p class="person__descr">Founder & Leader</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- / -->
   </div>
   <!-- <script type="module" src="index.tsx"></script> -->
  </body>
