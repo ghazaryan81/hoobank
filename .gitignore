@@ -10,8 +10,6 @@
 # _.gitignore
 # tailwind.config.ts
 
-
-
 # Auto-generated elements (production)
 #dist
 dist
@@ -151,9 +149,14 @@ next-env.d.ts
 .vscode/*
 !.vscode/extensions.json
 
-
-
-
 src/assets/img/tmp
 
+src/assets/css/*
+src/assets/css/outed-tw.css
+./src/assets/css/outed-tw.css
+/src/assets/css/outed-tw.css
+/src/assets/css/*.css
+/src/assets/css/**/*.css
+/src/assets/css/*
 
+vite.config.mts.*.mjs
