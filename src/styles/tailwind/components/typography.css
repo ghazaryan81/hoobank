@@ -2,3 +2,121 @@ $xl: $mq.xl;
 $lg: $mq.lg;
 $md: $mq.md;
 $sm: $mq.sm;
+
+@layer base {
+ .h1,
+ h1 {
+  @apply text-[7.2rem]
+									font-semibold
+									leading-[140%];
+
+  @apply xl:text-[6.0001rem];
+
+  @apply lg:text-[4.7rem];
+
+  @apply md:text-[2.4rem];
+ }
+
+ .h2,
+ h2 {
+  @apply text-[4.8rem]
+									font-600
+									leading-[160%];
+
+  @apply xl:text-[3.9rem];
+
+  @apply lg:text-[3rem];
+
+  @apply md:text-[2.4rem];
+ }
+
+ .h3,
+ h3 {
+  @apply text-[4rem]
+									font-600
+									leading-[120%];
+
+  @apply xl:text-[3.8rem];
+
+  @apply lg:text-[3.6rem];
+
+  @apply md:text-[3.4rem];
+ }
+
+ .h4,
+ h4 {
+  @apply text-[1.8rem]
+									font-600
+									leading-[120%];
+
+  @apply xl:text-[1.8rem];
+
+  @apply lg:text-[1.4rem];
+ }
+
+ .caption-v1 {
+  @apply text-[2rem]
+									leading-[120%];
+
+  @apply xl:text-[1.8rem];
+ }
+
+ .caption-v2 {
+  @apply text-[1.8rem]
+									leading-[120%];
+
+  @apply xl:text-[1.8rem];
+
+  @apply lg:text-[1.8rem];
+
+  @apply md:text-[1.4rem]
+									md:leading-[140%];
+ }
+
+ .descr-v1 {
+  @apply text-[1.8rem]
+									!font-300
+									leading-[180%]
+									text-white/70;
+
+  @apply xl:text-[1.6rem];
+
+  @apply lg:text-[1.4rem];
+ }
+
+ .descr-v2 {
+  @apply text-[1.6rem]
+									leading-[150%]
+									text-white/70;
+
+  @apply xl:text-[1.4rem];
+
+  @apply lg:text-[1.2rem];
+
+  @apply md:text-[1.3rem];
+ }
+
+ .button,
+ button {
+  @apply text-[1.8rem]
+									font-500
+									leading-[150%];
+
+  @apply xl:text-[1.4rem];
+
+  @apply lg:text-[1.1rem];
+
+  @apply md:text-base;
+ }
+
+ .link {
+  @apply text-[1.6rem]
+									leading-[120%];
+
+  @apply xl:text-[1.6rem];
+
+  @apply lg:text-[1.3rem];
+
+  @apply md:text-[1.4rem];
+ }
+}
