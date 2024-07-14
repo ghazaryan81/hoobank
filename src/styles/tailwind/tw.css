@@ -41,9 +41,9 @@ a {
 
 .fix {
  @apply mx-auto
-									w-full
-									max-w-xl
-									px-[1.6rem];
+								w-full
+								max-w-xl
+								px-[1.6rem];
 
  @apply xl:max-w-lg;
 
@@ -62,6 +62,7 @@ a {
   @apply flex
 									items-center
 									justify-between;
+
   @apply lg:flex-col;
  }
 }

@@ -151,12 +151,6 @@ next-env.d.ts
 
 src/assets/img/tmp
 
-src/assets/css/*
 src/assets/css/outed-tw.css
-./src/assets/css/outed-tw.css
-/src/assets/css/outed-tw.css
-/src/assets/css/*.css
-/src/assets/css/**/*.css
-/src/assets/css/*
 
 vite.config.mts.*.mjs
