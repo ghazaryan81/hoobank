@@ -6,7 +6,7 @@ $sm: $mq.sm;
 .page-title {
  @apply text-720
 								font-600
-								leading-1010
+								leading-[100%]
 								text-white;
 
  @apply xl:text-600
