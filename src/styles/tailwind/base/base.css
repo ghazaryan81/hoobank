@@ -12,13 +12,13 @@
   @apply no-underline;
  }
 
+ select,
+ option,
  a,
- button {
-  @apply no-underline;
- }
-
+ button,
  input {
-  @apply font-primary;
+  @apply font-primary
+									no-underline;
  }
 
  .rel {

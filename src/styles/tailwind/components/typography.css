@@ -3,104 +3,120 @@ $lg: $mq.lg;
 $md: $mq.md;
 $sm: $mq.sm;
 
-.page-title {
- @apply text-720
-								font-600
-								leading-[100%]
-								text-white;
+@layer base {
+ .h1,
+ h1 {
+  @apply text-[7.2rem]
+									font-semibold
+									leading-[140%];
 
- @apply xl:text-600
-								xl:leading-900;
+  @apply xl:text-[6.0001rem];
 
- @apply lg:text-470
-								lg:leading-710;
+  @apply lg:text-[4.7rem];
 
- @apply md:text-[2.4rem]
-								md:leading-[3.6rem];
+  @apply md:text-[2.4rem];
+ }
 
- @apply my-0
-								md:mx-auto
-								md:max-w-[24.44rem]
-								md:text-center;
-}
+ .h2,
+ h2 {
+  @apply text-[4.8rem]
+									font-600
+									leading-[160%];
 
-.section-title {
- @apply text-[4.8rem]
-								font-700
-								leading-[7.7rem]
-								text-white;
+  @apply xl:text-[3.9rem];
 
- @apply xl:text-[3.9rem]
-								xl:leading-none;
+  @apply lg:text-[3rem];
 
- @apply lg:text-[3rem]
-								lg:leading-none;
+  @apply md:text-[2.4rem];
+ }
 
- @apply md:text-[2.4rem]
-								md:leading-[1.3];
-}
+ .h3,
+ h3 {
+  @apply text-[4rem]
+									font-600
+									leading-[120%];
 
-.segment-v1 {
- @apply text-[4.089rem]
-								font-600
-								text-white;
+  @apply xl:text-[3.8rem];
 
- @apply lg:text-[4.089rem];
-}
+  @apply lg:text-[3.6rem];
 
-.segment-v2 {
- @apply text-[2rem]
-								leading-[2.4rem]
-								text-white;
+  @apply md:text-[3.4rem];
+ }
 
- @apply xl:text-[2rem];
-}
+ .h4,
+ h4 {
+  @apply text-[1.8rem]
+									font-600
+									leading-[120%];
 
-.segment-v3 {
- @apply text-[1.8rem]
-								font-600
-								text-white;
+  @apply xl:text-[1.8rem];
 
- @apply lg:text-[1.5rem];
-}
+  @apply lg:text-[1.4rem];
+ }
 
-.descr-v1 {
- @apply text-[1.8rem]
-								leading-[3.2rem]
-								text-white/70;
+ .caption-v1 {
+  @apply text-[2rem]
+									leading-[120%];
 
- @apply xl:text-[1.4rem]
-								xl:leading-[2.1rem];
-}
+  @apply xl:text-[1.8rem];
+ }
 
-.descr-v2 {
- @apply text-[1.6rem]
-								leading-[2.4rem]
-								text-white/70;
+ .caption-v2 {
+  @apply text-[1.8rem]
+									leading-[120%];
 
- @apply xl:text-[1.4rem]
-								xl:leading-[2.1rem];
-}
+  @apply xl:text-[1.8rem];
 
-.r-btn-label {
- @apply text-[1.8rem]
-								font-500
-								text-white;
+  @apply lg:text-[1.8rem];
 
- @apply xl:text-[1.4rem];
- @apply lg:text-[1.1rem];
- @apply md:text-[1rem];
-}
+  @apply md:text-[1.4rem]
+									md:leading-[140%];
+ }
 
-.btn-label {
- @apply text-[1.8rem]
-								font-500;
+ .descr-v1 {
+  @apply text-[1.8rem]
+									!font-300
+									leading-[180%]
+									text-white/70;
 
- @apply xl:text-[1.2rem];
- @apply lg:text-[1.2rem];
-}
+  @apply xl:text-[1.6rem];
 
-.link-v1 {
- @apply text-[1.6rem]
-								leading-[2.4rem];
+  @apply lg:text-[1.4rem];
+ }
+
+ .descr-v2 {
+  @apply text-[1.6rem]
+									leading-[150%]
+									text-white/70;
+
+  @apply xl:text-[1.4rem];
+
+  @apply lg:text-[1.2rem];
+
+  @apply md:text-[1.3rem];
+ }
+
+ .button,
+ button {
+  @apply text-[1.8rem]
+									font-500
+									leading-[150%];
+
+  @apply xl:text-[1.4rem];
+
+  @apply lg:text-[1.1rem];
+
+  @apply md:text-base;
+ }
+
+ .link {
+  @apply text-[1.6rem]
+									leading-[120%];
+
+  @apply xl:text-[1.6rem];
+
+  @apply lg:text-[1.3rem];
+
+  @apply md:text-[1.4rem];
+ }
 }

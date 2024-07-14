@@ -30,7 +30,7 @@
     "bconfig": "tsx --watch ./generate/browserconfig.ts",
     "pic": "tsx --watch ./generate/pic.ts",
     "css": "tsx --watch ./generate/css.ts",
-				"tmpl": "tsx --watch ./generate/tmpl.ts"
+    "tmpl": "tsx --watch ./generate/tmpl.ts"
   },
   "dependencies": {
     "@csstools/postcss-cascade-layers": "^4.0.6",
