@@ -25,6 +25,8 @@ import postcssPresetEnv from "postcss-preset-env";
 import pcssFocusWithin from "postcss-focus-within";
 import pcssCascadeLayers from "@csstools/postcss-cascade-layers";
 
+import pcssSvgBg from "postcss-inline-svg";
+
 import { layoutSizes } from "./src/app/def/base";
 import { pxToRem, toRemObj } from "./src/app/func";
 
@@ -58,6 +60,7 @@ export default {
   cssvariables,
   pcssImport,
   pcssCascadeLayers,
+  pcssSvgBg,
   /* pcssFunctions({ functions: postcssFunctions.stripUnit }), */
   jsonToRoot,
   postcssPresetEnv,
