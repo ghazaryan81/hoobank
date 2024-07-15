@@ -309,10 +309,6 @@ select,
  button,
  input{font-family:Poppins, sans-serif;font-family:var(--font-family-primary);text-decoration-line:none;}
 .rel{position:relative;left:0px;top:0px;}
-svg,
-  svg symbol,
-  svg g,
-  svg path{fill:currentColor;stroke:rgb(255, 255, 255);}
 .h1,
  h1{font-size:7.2rem;font-weight:600;line-height:140%;}
 .h2,
@@ -351,6 +347,8 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
 .main-header__fix{position:relative;left:0px;top:0px;display:flex;align-items:center;justify-content:space-between;padding-top:3.09rem;padding-bottom:3.09rem;}
 .list-links{display:flex;-moz-column-gap:3.1rem;column-gap:3.1rem;}
 .list-links .active{color:rgba(255, 255, 255, 1);color:rgba(255, 255, 255, var(--opacity-100));}
+.tab-icon{display:flex;aspect-ratio:1 / 1;width:6.4rem;align-items:center;justify-content:center;border-radius:50%;--tw-bg-opacity:1;background-color:rgba(10, 40, 52, 1);background-color:rgba(10, 40, 52, var(--tw-bg-opacity));--tw-text-opacity:1;color:rgba(0, 246, 255, 1);color:rgba(0, 246, 255, var(--tw-text-opacity));}
+.tab-icon svg{aspect-ratio:1/1;width:50%;}
 @media (max-width: 73.125rem){
 .s3{
   background:url(../../assets/img/tmp/sections/2-3.png) no-repeat center top;
@@ -401,6 +399,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  button{font-size:1.4rem;}
 .link{font-size:1.6rem;}
 .fix{max-width:99.2rem;max-width:var(--max-width-lg);}
+.tab-icon{width:5.2rem;}
 .xl\:pt-\[0\.6rem\]{padding-top:0.6rem;}
 .sm\:xl\:pt-\[0\]{padding-top:0;}
 .sm\:xl\:pt-\[0\]{padding-top:0;}}
@@ -455,7 +454,8 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
 .link{font-size:1.3rem;}
 .fix{max-width:76.8rem;max-width:var(--max-width-md);}
 .main-header__fix{flex-direction:column;}
-.list-links{white-space:nowrap;padding-top:2.5rem;}}
+.list-links{white-space:nowrap;padding-top:2.5rem;}
+.tab-icon{width:4rem;}}
 @media (max-width: 46rem){
 .s3{
   background:url(../../assets/img/tmp/sections/4-3.png) no-repeat center top;
@@ -504,6 +504,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
 .link{font-size:1.4rem;}
 .fix{max-width:32rem;max-width:var(--max-width-sm);}
 .main-nav{display:none;}
+.tab-icon{width:3.4rem;}
 .md\:block{display:block;}}
 @media (max-width: 18rem){
  @media (max-width: 73.125rem){

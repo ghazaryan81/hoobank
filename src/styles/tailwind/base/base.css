@@ -90,16 +90,6 @@
          justify-center;
  }
 
- svg {
-  &,
-  symbol,
-  g,
-  path {
-   @apply fill-current
-										stroke-white;
-  }
- }
-
  .layer-center {
   @apply absolute
 									left-[50%]

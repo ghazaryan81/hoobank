@@ -1,6 +1,6 @@
 /* .ic {
  &-inst {
-  @apply h-[2.1rem]
+  @apply aspect-[2.1/2.1]
 									w-[2.1rem];
  }
 
