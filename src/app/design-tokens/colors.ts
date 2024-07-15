@@ -20,6 +20,7 @@ export const colors = {
     "600": "rgba( 92 225 230  / <alpha-value>)",
     "700": "rgba( 51 187 207  / <alpha-value>)",
     "800": "rgba( 38 208 206  / <alpha-value>)",
+    "850": "rgba( 10 40 52    / <alpha-value>)",
     "900": "rgba( 2 20 27     / <alpha-value>)"
   },
 
