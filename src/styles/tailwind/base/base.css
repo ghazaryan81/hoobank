@@ -95,7 +95,8 @@
   symbol,
   g,
   path {
-   @apply fill-current;
+   @apply fill-current
+										stroke-white;
   }
  }
 

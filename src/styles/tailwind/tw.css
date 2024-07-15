@@ -1,6 +1,6 @@
 @import url("./base/base.css");
 @import url("./base/root.css");
-/* @import url("./base/fonts.css"); */
+@import url("./base/fonts.css");
 @import url("./components/button.css");
 @import url("./components/typography.css");
 @import url("./components/scroll.css");
@@ -54,29 +54,12 @@ a {
  @apply md:max-w-sm;
 }
 
-/* .s1 {
- background: url(../../assets/img/tmp/sections/1-1.png) no-repeat center top;
- min-height: 9.3rem;
-
- @media (max-width: $xl) {
-  background: url(../../assets/img/tmp/sections/2-1.png) no-repeat center top;
-  min-height: 9.3rem;
- }
-
- @media (max-width: $lg) {
-  background: url(../../assets/img/tmp/sections/3-1.png) no-repeat center top;
-  min-height: 13.4rem;
- }
-
- @media (max-width: $md) {
-  background: url(../../assets/img/tmp/sections/4-1.png) no-repeat center top;
-  min-height: 9.3rem;
- }
-} */
-
 .main-header {
  &__fix {
-  @apply flex
+  @apply relative
+									left-0
+									top-0
+									flex
 									items-center
 									justify-between
 									py-[3.09rem];
@@ -95,32 +78,30 @@ a {
 
  @apply lg:whitespace-nowrap
 								lg:pt-[2.5rem];
+
+ .active {
+  @apply text-white/100;
+ }
 }
 
-/* .s2 {
- background: url(../../assets/img/tmp/sections/1-2.png) no-repeat center top;
- min-height: 77.5rem;
+/*
+.s1 {
+ background: url(../../assets/img/tmp/sections/1-1.png) no-repeat center top;
+ min-height: 9.3rem;
 
  @media (max-width: $xl) {
-  background: url(../../assets/img/tmp/sections/2-2.png) no-repeat center top;
-  min-height: 61.1rem;
+  background: url(../../assets/img/tmp/sections/2-1.png) no-repeat center top;
+  min-height: 9.3rem;
  }
 
  @media (max-width: $lg) {
-  background: url(../../assets/img/tmp/sections/3-2.png) no-repeat center top;
-  min-height: 47rem;
+  background: url(../../assets/img/tmp/sections/3-1.png) no-repeat center top;
+  min-height: 13.4rem;
  }
 
  @media (max-width: $md) {
-  background: url(../../assets/img/tmp/sections/4-2.png) no-repeat center top;
-  min-height: 69.5rem;
+  background: url(../../assets/img/tmp/sections/4-1.png) no-repeat center top;
+  min-height: 9.3rem;
  }
-} */
-
-.testimonial {
- display: block;
- max-width: 37.8rem;
- height: 36.46rem;
- border-radius: 20px;
- background: svg-load("../../assets/svg/gradient-testimonial.svg");
 }
+*/
