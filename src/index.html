@@ -25,10 +25,21 @@ const headData = { appName, appThemeColor, appTitleColor,
 %>
 <!doctype html>
 <html lang="en" translate="no" class="notranslate">
- <%- include('view-tmpl/head.html', headData); %>
+ <%- include("view-tmpl/head.html", headData); %>
  <body>
   <noscript><%=misc.nojs %></noscript>
-  <div class="wrapper"></div>
+  <div class="wrapper">
+   <!--  -->
+   <header class="main-header s1">
+    <!-- prettier-ignore -->
+    <div class="fix main-header__fix">
+      <%- include("view-tmpl/components/logo.html", { svg, size: 118 }); %>
+      <%- include("view-tmpl/components/menu.html", { menu }); %>
+      <%- include("view-tmpl/components/burger.html"); %>
+    </div>
+   </header>
+   <!-- / -->
+  </div>
   <!-- <script type="module" src="index.tsx"></script> -->
  </body>
 </html>

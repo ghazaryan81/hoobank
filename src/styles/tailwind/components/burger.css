@@ -1,1 +1,42 @@
-/*  */
+.burger {
+ $this: &;
+
+ @apply absolute
+								right-[21px]
+								top-2
+								cursor-pointer
+								select-none
+								transition-transform
+								duration-[0.4s];
+
+ -webkit-tap-highlight-color: transparent;
+
+ path {
+  @apply !stroke-white;
+ }
+
+ &.active {
+  transform: rotate(45deg);
+
+  .burger__line-bottom,
+  .burger__line-top {
+   stroke-dashoffset: -68px;
+  }
+ }
+
+ &__line {
+  @apply fill-none
+									stroke-[5.5]
+									text-black;
+
+  transition:
+   stroke-dasharray 0.4s,
+   stroke-dashoffset 0.4s;
+  stroke-linecap: round;
+
+  &-bottom,
+  &-top {
+   stroke-dasharray: 40 121;
+  }
+ }
+}
