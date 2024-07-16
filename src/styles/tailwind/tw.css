@@ -2,6 +2,7 @@
 @import url("./base/root.css");
 @import url("./base/fonts.css");
 @import url("./components/fix.css");
+@import url("./components/tab-icon.css");
 @import url("./components/button.css");
 @import url("./components/typography.css");
 @import url("./components/scroll.css");
@@ -84,38 +85,16 @@ a {
  }
 }
 
-.tab-icon {
- @apply flex
-								aspect-square
-								w-[6.4rem]
-								items-center
-								justify-center
-								rounded-[50%]
-								bg-aqua-810
-								text-aqua-500;
-
- @apply xl:w-[5.2rem];
-
- @apply lg:w-[4rem];
-
- @apply md:w-[3.4rem];
-
- svg {
-  @apply aspect-[1/1]
-									w-6/12;
- }
-}
-
 .btn-hover {
  @apply duration-[0.15s,0.15s]
 								ease-[linear,linear]
 								will-change-[transform,box-shadow];
 
  @apply hover:scale-[0.94]
-							hover:shadow-aqua-100;
+							 hover:shadow-aqua-100;
 
  @apply hover:scale-[0.94]
-							hover:shadow-aqua-100;
+							 hover:shadow-aqua-100;
 }
 
 .btn {
