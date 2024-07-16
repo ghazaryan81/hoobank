@@ -258,12 +258,12 @@ a {
 }
 
 .badge {
- display: inline-block;
- width: 2.7rem;
- height: 2.8rem;
- position: relative;
- top: 0;
- left: 0;
+ @apply relative
+								left-0
+								top-0
+								inline-block
+								h-[2.8rem]
+								w-[2.7rem];
 
  &__symbol {
   @apply layer-center
@@ -275,5 +275,92 @@ a {
   @apply layer-center
 									z-[1]
 									text-gray-600;
+ }
+}
+
+/* .s9 {
+ background: url(../../assets/img/tmp/sections/1-9.png) no-repeat center top;
+ min-height: 45.9rem;
+
+ @media (max-width: $xl) {
+  background: url(../../assets/img/tmp/sections/2-9.png) no-repeat center top;
+  min-height: 29.1rem;
+ }
+
+ @media (max-width: $lg) {
+  background: url(../../assets/img/tmp/sections/3-9.png) no-repeat center top;
+  min-height: 26.8rem;
+ }
+
+ @media (max-width: $md) {
+  background: url(../../assets/img/tmp/sections/4-9.png) no-repeat center top;
+  min-height: 40.8rem;
+ }
+}
+ */
+.get-started {
+ &__fix {
+  @apply py-[8rem];
+
+  @apply xl:py-[4rem];
+ }
+
+ &__info {
+  @apply md:pb-[2rem]
+									md:text-center;
+ }
+
+ &__info-descr {
+  @apply max-w-[46.837rem]
+									pt-[0.4rem];
+ }
+}
+
+.box {
+ &--start {
+  @apply relative
+									left-0
+									top-0
+									z-[10]
+									flex
+									min-h-[29.8rem]
+									items-center
+									justify-between
+									rounded-[20px]
+									px-[9.9rem]
+									py-[7.6rem];
+
+  @apply md:flex-col;
+
+  @apply xl:min-h-[21rem]
+									xl:pb-[5rem]
+									xl:pl-[6rem]
+									xl:pr-[6rem]
+									xl:pt-[4rem];
+
+  @apply lg:min-h-[19.8rem]
+									lg:px-[6rem]
+									lg:pb-[5rem]
+									lg:pt-[4rem];
+
+  @apply md:min-h-[32.7rem]
+									md:px-[2rem]
+									md:py-[4rem];
+
+  &:after {
+   @apply absolute
+										inset-0
+										z-[-1]
+										rounded-[inherit]
+										content-[""];
+
+   background: svg-load("../../assets/svg/gradient-start.svg");
+  }
+ }
+}
+
+.info-cell {
+ &--start {
+  display: block;
  }
 }
