@@ -3,6 +3,7 @@
 @import url("./base/fonts.css");
 @import url("./components/typography.css");
 @import url("./components/scroll.css");
+@import url("./components/selection.css");
 @import url("./components/ic.css");
 
 @import url("./components/fix.css");
@@ -14,6 +15,7 @@
 @import url("./components/tag.css");
 @import url("./components/person.css");
 @import url("./components/boxes.css");
+@import url("./components/box.css");
 
 @import url("./components/logos.css");
 @import url("./components/burger.css");
@@ -31,18 +33,6 @@ $xl: $mq.xl;
 $lg: $mq.lg;
 $md: $mq.md;
 $sm: $mq.sm;
-
-body {
- ::-moz-selection {
-  @apply bg-aqua-600/20
-									text-aqua-600;
- }
-
- ::selection {
-  @apply bg-aqua-600/20
-									text-aqua-600;
- }
-}
 
 :root {
  @apply font-primary
@@ -108,82 +98,6 @@ a {
  &__info-descr {
   @apply max-w-[46.837rem]
 									pt-[0.4rem];
- }
-}
-
-.box {
- &--start {
-  @apply relative
-									left-0
-									top-0
-									z-[10]
-									flex
-									min-h-[29.8rem]
-									items-center
-									justify-between
-									rounded-[20px]
-									px-[9.9rem]
-									py-[7.6rem];
-
-  @apply md:flex-col;
-
-  @apply xl:min-h-[21rem]
-									xl:pb-[5rem]
-									xl:pl-[6rem]
-									xl:pr-[6rem]
-									xl:pt-[4rem];
-
-  @apply lg:min-h-[19.8rem]
-									lg:px-[6rem]
-									lg:pb-[5rem]
-									lg:pt-[4rem];
-
-  @apply md:min-h-[32.7rem]
-									md:px-[2rem]
-									md:py-[4rem];
-
-  &:after {
-   @apply absolute
-										inset-0
-										z-[-1]
-										rounded-[inherit]
-										content-[""];
-
-   background: svg-load("../../assets/svg/gradient-start.svg");
-  }
- }
-
- &--testimonials {
-  @apply relative
-									left-0
-									top-0
-									z-[1]
-									block
-									w-full
-									max-w-[37.8rem]
-									rounded-[20px];
-
-  @apply px-[4rem]
-									py-[59px];
-
-  @apply xl:px-[4rem]
-									xl:py-[59px];
-
-  @apply lg:px-[2rem]
-									lg:py-[4remn];
-
-  @apply md:px-[2.5rem]
-									md:py-[4rem];
-
-  &:after {
-   @apply absolute
-										inset-0
-										z-[-1]
-										rounded-[inherit]
-										content-[""];
-
-   background: svg-load("../../assets/svg/gradient-testimonial.svg");
-  }
  }
 }
 
