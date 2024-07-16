@@ -364,10 +364,21 @@ a {
 									top-0
 									z-[1]
 									block
-									min-h-[36.4rem]
 									w-full
 									max-w-[37.8rem]
 									rounded-[20px];
+
+  @apply px-[4rem]
+									py-[59px];
+
+  @apply xl:px-[4rem]
+									xl:py-[59px];
+
+  @apply lg:px-[2rem]
+									lg:py-[4remn];
+
+  @apply md:px-[2.5rem]
+									md:py-[4rem];
 
   &:after {
    @apply absolute
@@ -427,17 +438,17 @@ a {
 
   @apply xl:max-w-[47.1rem];
 
-  @apply lg:max-w-[36.3rem]
+  @apply lg:mx-auto
+									lg:max-w-[36.3rem]
 									lg:pb-[1rem];
 
-  @apply md:mx-auto
-									md:max-w-full
+  @apply md:max-w-full
 									md:pb-[1.9rem];
  }
 
  &__descr {
   @apply max-w-[42.028rem]
-									md:mx-auto;
+									lg:mx-auto;
  }
 }
 
@@ -452,4 +463,29 @@ a {
  @apply md:flex-col
 								md:gap-x-[0]
 								md:gap-y-[12px];
+}
+
+.ic-quote {
+ @apply text-aqua-500;
+}
+
+.person {
+ @apply flex
+								shrink-0
+								grow
+								items-start
+								gap-x-[1.7rem];
+
+ &__img {
+  @apply w-full
+									max-w-[4.8rem]
+									shrink-0
+									grow
+									overflow-hidden
+									rounded-[50%];
+ }
+
+ &__info {
+  @apply pt-[0.3rem];
+ }
 }
