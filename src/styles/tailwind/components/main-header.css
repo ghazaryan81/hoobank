@@ -1,0 +1,13 @@
+.main-header {
+ &__fix {
+  @apply relative
+									left-0
+									top-0
+									flex
+									items-center
+									justify-between
+									py-[3.09rem];
+
+  @apply lg:flex-col;
+ }
+}

@@ -25,6 +25,9 @@
 @import url("./components/logo.css");
 @import url("./components/screens.css");
 
+@import url("./components/main-header.css");
+@import url("./components/testimonials.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -51,20 +54,6 @@ body {
 a {
  @apply font-400
 								text-white/70;
-}
-
-.main-header {
- &__fix {
-  @apply relative
-									left-0
-									top-0
-									flex
-									items-center
-									justify-between
-									py-[3.09rem];
-
-  @apply lg:flex-col;
- }
 }
 
 .main-nav {
@@ -98,45 +87,5 @@ a {
  &__info-descr {
   @apply max-w-[46.837rem]
 									pt-[0.4rem];
- }
-}
-
-.testimonials {
- &__fix {
-  @apply py-[8rem];
-  @apply xl:py-[5rem];
-  @apply md:py-[3rem];
- }
-
- &__head {
-  @apply mb-[32px]
-									flex
-									items-center
-									justify-between;
-
-  @apply lg:flex-col
-									lg:items-start
-									lg:pt-[1rem]
-									lg:text-center;
-
-  @apply md:pt-[1rem];
- }
-
- &__title {
-  @apply max-w-[58rem];
-
-  @apply xl:max-w-[47.1rem];
-
-  @apply lg:mx-auto
-									lg:max-w-[36.3rem]
-									lg:pb-[1rem];
-
-  @apply md:max-w-full
-									md:pb-[1.9rem];
- }
-
- &__descr {
-  @apply max-w-[42.028rem]
-									lg:mx-auto;
  }
 }
