@@ -1,0 +1,12 @@
+.boxes {
+ @apply flex
+								gap-x-[18px];
+
+ @apply xl:gap-x-[12px];
+
+ @apply lg:gap-x-[8px];
+
+ @apply md:flex-col
+								md:gap-x-[0]
+								md:gap-y-[12px];
+}

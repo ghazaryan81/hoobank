@@ -13,6 +13,7 @@
 
 @import url("./components/tag.css");
 @import url("./components/person.css");
+@import url("./components/boxes.css");
 
 @import url("./components/logos.css");
 @import url("./components/burger.css");
@@ -224,17 +225,4 @@ a {
   @apply max-w-[42.028rem]
 									lg:mx-auto;
  }
-}
-
-.boxes {
- @apply flex
-								gap-x-[18px];
-
- @apply xl:gap-x-[12px];
-
- @apply lg:gap-x-[8px];
-
- @apply md:flex-col
-								md:gap-x-[0]
-								md:gap-y-[12px];
 }
