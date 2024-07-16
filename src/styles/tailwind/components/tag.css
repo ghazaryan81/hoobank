@@ -1,0 +1,12 @@
+.tag {
+ @apply caption-v2
+								inline-flex
+								items-center
+								gap-x-[15px]
+								rounded-[10px]
+								px-[1.3rem]
+								py-[0.9rem]
+								text-white;
+
+ background: svg-load("../../../assets/svg/gradient-tag.svg");
+}

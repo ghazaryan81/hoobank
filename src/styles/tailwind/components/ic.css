@@ -60,3 +60,7 @@
  }
 }
  */
+
+.ic-quote {
+ @apply text-aqua-500;
+}

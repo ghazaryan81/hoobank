@@ -1,0 +1,20 @@
+.person {
+ @apply flex
+								shrink-0
+								grow
+								items-start
+								gap-x-[1.7rem];
+
+ &__img {
+  @apply w-full
+									max-w-[4.8rem]
+									shrink-0
+									grow
+									overflow-hidden
+									rounded-[50%];
+ }
+
+ &__info {
+  @apply pt-[0.3rem];
+ }
+}

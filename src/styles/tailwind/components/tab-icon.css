@@ -1,0 +1,21 @@
+.tab-icon {
+ @apply flex
+								aspect-square
+								w-[6.4rem]
+								items-center
+								justify-center
+								rounded-[50%]
+								bg-aqua-810
+								text-aqua-500;
+
+ @apply xl:w-[5.2rem];
+
+ @apply lg:w-[4rem];
+
+ @apply md:w-[3.4rem];
+
+ svg {
+  @apply aspect-[1/1]
+									w-6/12;
+ }
+}

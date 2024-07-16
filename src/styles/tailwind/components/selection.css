@@ -1,0 +1,11 @@
+body {
+ ::-moz-selection {
+  @apply bg-aqua-600/20
+									text-aqua-600;
+ }
+
+ ::selection {
+  @apply bg-aqua-600/20
+									text-aqua-600;
+ }
+}
