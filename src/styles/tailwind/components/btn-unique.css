@@ -1,0 +1,58 @@
+.btn-unique {
+ @apply relative
+								left-0
+								top-0
+								z-[1]
+								flex
+								h-[14rem]
+								w-[14rem]
+								items-center
+								rounded-[50%]
+								bg-grad-aqua-r-100
+								px-[3.4rem]
+								text-left;
+
+ @apply xl:h-[11.5rem]
+								xl:w-[11.4rem]
+								xl:px-[2.4rem];
+
+ @apply lg:h-[8.8rem]
+								lg:w-[8.8rem]
+								lg:px-[1.4rem];
+
+ @apply md:h-[6.8rem]
+								md:w-[6.9rem]
+								md:px-[0.4rem];
+
+ @apply after:absolute
+								after:inset-[2px]
+								after:z-[-2]
+								after:rounded-[inherit]
+								after:bg-gray-800
+								after:content-[""];
+
+ @apply before:absolute
+								before:inset-0
+								before:z-[-1]
+								before:rounded-[inherit]
+								before:bg-grad-aqua-r-100
+								before:opacity-0
+
+								before:transition-opacity
+								before:delay-[0.05s]
+								before:ease-linear
+
+								before:will-change-[opacity]
+								before:content-[""];
+
+ @apply hover:before:opacity-100;
+
+ @apply btn-hover;
+
+ &__label {
+  @apply bg-grad-aqua-r-100;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+}
