@@ -90,27 +90,6 @@ a {
  }
 }
 
-.badge {
- @apply relative
-								left-0
-								top-0
-								inline-block
-								h-[2.8rem]
-								w-[2.7rem];
-
- &__symbol {
-  @apply layer-center
-									z-[2]
-							text-aqua-500;
- }
-
- &__bg {
-  @apply layer-center
-									z-[1]
-									text-gray-600;
- }
-}
-
 .get-started {
  &__fix {
   @apply py-[8rem];
