@@ -1,0 +1,12 @@
+.fix {
+ @apply mx-auto
+								w-full
+								max-w-xl
+								px-[1.6rem];
+
+ @apply xl:max-w-lg;
+
+ @apply lg:max-w-md;
+
+ @apply md:max-w-sm;
+}
