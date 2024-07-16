@@ -453,6 +453,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .testimonials__head{padding-top:1rem;}
  .testimonials__title{max-width:100%;padding-bottom:1.9rem;}
  .get-started__info{padding-bottom:2rem;text-align:center;}
+ .main-nav{display:none;}
  .h1,
  h1{font-size:2.4rem;}
  .h2,
@@ -464,7 +465,6 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .button,
  button{font-size:1rem;line-height:1.5rem;}
  .link{font-size:1.4rem;}
- .main-nav{display:none;}
  .md\:block{display:block;}}
 @media (max-width: 18rem){
  @media (max-width: 73.125rem){
