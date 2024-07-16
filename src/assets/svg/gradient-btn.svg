@@ -1,0 +1,31 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 170 64"
+  preserveAspectRatio="none"
+>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient
+      id="linear-gradient"
+      x1="72.23"
+      y1="117.15"
+      x2="90.45"
+      y2="-1.47"
+      gradientTransform="translate(0 66) scale(1 -1)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#def9fa" />
+      <stop offset=".17" stop-color="#bef3f5" />
+      <stop offset=".42" stop-color="#9dedf0" />
+      <stop offset=".55" stop-color="#7de7eb" />
+      <stop offset=".72" stop-color="#5ce1e6" />
+      <stop offset="1" stop-color="#33bbcf" />
+    </linearGradient>
+  </defs>
+  <rect class="cls-1" width="170" height="64" />
+</svg>

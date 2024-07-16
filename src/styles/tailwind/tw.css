@@ -22,6 +22,18 @@ $lg: $mq.lg;
 $md: $mq.md;
 $sm: $mq.sm;
 
+body {
+ ::-moz-selection {
+  @apply bg-aqua-600/20
+									text-aqua-600;
+ }
+
+ ::selection {
+  @apply bg-aqua-600/20
+									text-aqua-600;
+ }
+}
+
 :root {
  @apply font-primary
 								text-62-5p
@@ -107,13 +119,13 @@ a {
 */
 
 .tab-icon {
- @apply bg-aqua-850
-								flex
+ @apply flex
 								aspect-square
 								w-[6.4rem]
 								items-center
 								justify-center
 								rounded-[50%]
+								bg-aqua-810
 								text-aqua-500;
 
  @apply xl:w-[5.2rem];
@@ -125,5 +137,109 @@ a {
  svg {
   @apply aspect-[1/1]
 									w-6/12;
+ }
+}
+
+.btn-hover {
+ @apply duration-[0.15s,0.15s]
+								ease-[linear,linear]
+								will-change-[transform,box-shadow];
+
+ @apply hover:scale-[0.94]
+							hover:shadow-aqua-100;
+
+ @apply hover:scale-[0.94]
+							hover:shadow-aqua-100;
+}
+
+.btn {
+ @apply text-gray-800;
+
+ &--primary {
+  background: svg-load("../../assets/svg/gradient-btn.svg");
+  @apply btn-hover;
+ }
+
+ &--size-xl {
+  @apply min-h-[6.4rem]
+									min-w-[17rem]
+									rounded-[10px]
+									px-[3.3rem]
+									py-[1.8rem];
+
+  @apply xl:min-h-[5.2rem]
+									xl:min-w-[14rem]
+									xl:rounded-[8px]
+									xl:px-[1.7rem]
+									xl:py-[1rem];
+
+  @apply lg:min-h-[4.6rem]
+									lg:min-w-[12.4rem]
+									lg:px-[1.7rem]
+									lg:py-[1rem];
+
+  @apply md:min-h-[4.2rem]
+									md:min-w-[10.9rem]
+									md:px-8
+									md:py-[1.2rem];
+ }
+}
+
+.btn-unique {
+ @apply relative
+								left-0
+								top-0
+								z-[1]
+								flex
+								h-[14rem]
+								w-[14rem]
+								items-center
+								rounded-[50%]
+								bg-grad-aqua-r-100
+								px-[3.4rem]
+								text-left;
+
+ @apply xl:h-[11.5rem]
+								xl:w-[11.4rem]
+								xl:px-[2.4rem];
+
+ @apply lg:h-[8.8rem]
+								lg:w-[8.8rem]
+								lg:px-[1.4rem];
+
+ @apply md:h-[6.8rem]
+								md:w-[6.9rem]
+								md:px-[0.4rem];
+
+ @apply after:absolute
+								after:inset-[2px]
+								after:z-[-2]
+								after:rounded-[inherit]
+								after:bg-gray-800
+								after:content-[""];
+
+ @apply before:absolute
+								before:inset-0
+								before:z-[-1]
+								before:rounded-[inherit]
+								before:bg-grad-aqua-r-100
+								before:opacity-0
+
+								before:transition-opacity
+								before:delay-[0.05s]
+								before:ease-linear
+
+								before:will-change-[opacity]
+								before:content-[""];
+
+ @apply hover:before:opacity-100;
+
+ @apply btn-hover;
+
+ &__label {
+  @apply bg-grad-aqua-r-100;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
  }
 }
