@@ -1,0 +1,32 @@
+.btn {
+ @apply text-gray-800;
+
+ &--primary {
+  background: svg-load("../../../assets/svg/gradient-btn.svg");
+  @apply btn-hover;
+ }
+
+ &--size-xl {
+  @apply min-h-[6.4rem]
+									min-w-[17rem]
+									rounded-[10px]
+									px-[3.3rem]
+									py-[1.8rem];
+
+  @apply xl:min-h-[5.2rem]
+									xl:min-w-[14rem]
+									xl:rounded-[8px]
+									xl:px-[1.7rem]
+									xl:py-[1rem];
+
+  @apply lg:min-h-[4.6rem]
+									lg:min-w-[12.4rem]
+									lg:px-[1.7rem]
+									lg:py-[1rem];
+
+  @apply md:min-h-[4.2rem]
+									md:min-w-[10.9rem]
+									md:px-8
+									md:py-[1.2rem];
+ }
+}
