@@ -96,28 +96,6 @@ a {
  }
 }
 
-/*
-.s1 {
- background: url(../../assets/img/tmp/sections/1-1.png) no-repeat center top;
- min-height: 9.3rem;
-
- @media (max-width: $xl) {
-  background: url(../../assets/img/tmp/sections/2-1.png) no-repeat center top;
-  min-height: 9.3rem;
- }
-
- @media (max-width: $lg) {
-  background: url(../../assets/img/tmp/sections/3-1.png) no-repeat center top;
-  min-height: 13.4rem;
- }
-
- @media (max-width: $md) {
-  background: url(../../assets/img/tmp/sections/4-1.png) no-repeat center top;
-  min-height: 9.3rem;
- }
-}
-*/
-
 .tab-icon {
  @apply flex
 								aspect-square
@@ -278,26 +256,6 @@ a {
  }
 }
 
-/* .s9 {
- background: url(../../assets/img/tmp/sections/1-9.png) no-repeat center top;
- min-height: 45.9rem;
-
- @media (max-width: $xl) {
-  background: url(../../assets/img/tmp/sections/2-9.png) no-repeat center top;
-  min-height: 29.1rem;
- }
-
- @media (max-width: $lg) {
-  background: url(../../assets/img/tmp/sections/3-9.png) no-repeat center top;
-  min-height: 26.8rem;
- }
-
- @media (max-width: $md) {
-  background: url(../../assets/img/tmp/sections/4-9.png) no-repeat center top;
-  min-height: 40.8rem;
- }
-}
- */
 .get-started {
  &__fix {
   @apply py-[8rem];
@@ -391,26 +349,6 @@ a {
   }
  }
 }
-
-/* .s7 {
- background: url(../../assets/img/tmp/sections/1-7.png) no-repeat center top;
- min-height: 71.1rem;
-
- @media (max-width: $xl) {
-  background: url(../../assets/img/tmp/sections/2-7.png) no-repeat center top;
-  min-height: 63.2rem;
- }
-
- @media (max-width: $lg) {
-  background: url(../../assets/img/tmp/sections/3-7.png) no-repeat center top;
-  min-height: 62.9rem;
- }
-
- @media (max-width: $md) {
-  background: url(../../assets/img/tmp/sections/4-7.png) no-repeat center top;
-  min-height: 117.2rem;
- }
-} */
 
 .testimonials {
  &__fix {
