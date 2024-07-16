@@ -243,3 +243,37 @@ a {
   -webkit-text-fill-color: transparent;
  }
 }
+
+.tag {
+ @apply caption-v2
+								inline-flex
+								items-center
+								gap-x-[15px]
+								rounded-[10px]
+								px-[1.3rem]
+								py-[0.9rem]
+								text-white;
+
+ background: svg-load("../../assets/svg/gradient-tag.svg");
+}
+
+.badge {
+ display: inline-block;
+ width: 2.7rem;
+ height: 2.8rem;
+ position: relative;
+ top: 0;
+ left: 0;
+
+ &__symbol {
+  @apply layer-center
+									z-[2]
+							text-aqua-500;
+ }
+
+ &__bg {
+  @apply layer-center
+									z-[1]
+									text-gray-600;
+ }
+}
