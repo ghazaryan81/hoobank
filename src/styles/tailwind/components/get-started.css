@@ -1,0 +1,17 @@
+.get-started {
+ &__fix {
+  @apply py-[8rem];
+
+  @apply xl:py-[4rem];
+ }
+
+ &__info {
+  @apply md:pb-[2rem]
+									md:text-center;
+ }
+
+ &__info-descr {
+  @apply max-w-[46.837rem]
+									pt-[0.4rem];
+ }
+}

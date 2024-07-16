@@ -112,6 +112,10 @@ body ::selection{background-color:rgba(51, 187, 207, 0.2);background-color:rgba(
 .testimonials__head{margin-bottom:32px;display:flex;align-items:center;justify-content:space-between;}
 .testimonials__title{max-width:58rem;}
 .testimonials__descr{max-width:42.028rem;}
+.list-links{display:flex;-moz-column-gap:3.1rem;column-gap:3.1rem;}
+.list-links .active{color:rgba(255, 255, 255, 1);color:rgba(255, 255, 255, var(--opacity-100));}
+.get-started__fix{padding-top:8rem;padding-bottom:8rem;}
+.get-started__info-descr{max-width:46.837rem;padding-top:0.4rem;}
 /* ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com */
 *,
 ::before,
@@ -376,10 +380,6 @@ select,
 html,
 body{--tw-bg-opacity:1;background-color:rgba(0, 4, 14, 1);background-color:rgba(0, 4, 14, var(--tw-bg-opacity));font-weight:400;font-weight:var(--font-weight-400);}
 a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0.7);color:rgba(255, 255, 255, var(--opacity-70));}
-.list-links{display:flex;-moz-column-gap:3.1rem;column-gap:3.1rem;}
-.list-links .active{color:rgba(255, 255, 255, 1);color:rgba(255, 255, 255, var(--opacity-100));}
-.get-started__fix{padding-top:8rem;padding-bottom:8rem;}
-.get-started__info-descr{max-width:46.837rem;padding-top:0.4rem;}
 @media (max-width: 73.125rem){
  .fix{max-width:99.2rem;max-width:var(--max-width-lg);}
  .tab-icon{width:5.2rem;}
@@ -391,6 +391,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .box--testimonials{padding-left:4rem;padding-right:4rem;padding-top:59px;padding-bottom:59px;}
  .testimonials__fix{padding-top:5rem;padding-bottom:5rem;}
  .testimonials__title{max-width:47.1rem;}
+ .get-started__fix{padding-top:4rem;padding-bottom:4rem;}
  .h1,
  h1{font-size:6.0001rem;}
  .h2,
@@ -406,7 +407,6 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .button,
  button{font-size:1.4rem;}
  .link{font-size:1.6rem;}
- .get-started__fix{padding-top:4rem;padding-bottom:4rem;}
  .xl\:pt-\[0\.6rem\]{padding-top:0.6rem;}
  .sm\:xl\:pt-\[0\]{padding-top:0;}
  .sm\:xl\:pt-\[0\]{padding-top:0;}}
@@ -423,6 +423,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .testimonials__head{flex-direction:column;align-items:flex-start;padding-top:1rem;text-align:center;}
  .testimonials__title{margin-left:auto;margin-right:auto;max-width:36.3rem;padding-bottom:1rem;}
  .testimonials__descr{margin-left:auto;margin-right:auto;}
+ .list-links{white-space:nowrap;padding-top:2.5rem;}
  .h1,
  h1{font-size:4.7rem;}
  .h2,
@@ -437,7 +438,6 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .button,
  button{font-size:1.1rem;}
  .link{font-size:1.3rem;}
- .list-links{white-space:nowrap;padding-top:2.5rem;}
  .lg\:block{display:block;}}
 @media (max-width: 46rem){
  .fix{max-width:32rem;max-width:var(--max-width-sm);}
@@ -452,6 +452,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .testimonials__fix{padding-top:3rem;padding-bottom:3rem;}
  .testimonials__head{padding-top:1rem;}
  .testimonials__title{max-width:100%;padding-bottom:1.9rem;}
+ .get-started__info{padding-bottom:2rem;text-align:center;}
  .h1,
  h1{font-size:2.4rem;}
  .h2,
@@ -464,7 +465,6 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  button{font-size:1rem;line-height:1.5rem;}
  .link{font-size:1.4rem;}
  .main-nav{display:none;}
- .get-started__info{padding-bottom:2rem;text-align:center;}
  .md\:block{display:block;}}
 @media (max-width: 18rem){
  @media (max-width: 73.125rem){

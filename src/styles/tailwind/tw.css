@@ -27,6 +27,8 @@
 
 @import url("./components/main-header.css");
 @import url("./components/testimonials.css");
+@import url("./components/list-links.css");
+@import url("./components/get-started.css");
 
 @tailwind base;
 @tailwind components;
@@ -58,34 +60,4 @@ a {
 
 .main-nav {
  @apply md:hidden;
-}
-
-.list-links {
- @apply flex
-								gap-x-[3.1rem];
-
- @apply lg:whitespace-nowrap
-								lg:pt-[2.5rem];
-
- .active {
-  @apply text-white/100;
- }
-}
-
-.get-started {
- &__fix {
-  @apply py-[8rem];
-
-  @apply xl:py-[4rem];
- }
-
- &__info {
-  @apply md:pb-[2rem]
-									md:text-center;
- }
-
- &__info-descr {
-  @apply max-w-[46.837rem]
-									pt-[0.4rem];
- }
 }

@@ -1,0 +1,11 @@
+.list-links {
+ @apply flex
+								gap-x-[3.1rem];
+
+ @apply lg:whitespace-nowrap
+								lg:pt-[2.5rem];
+
+ .active {
+  @apply text-white/100;
+ }
+}
