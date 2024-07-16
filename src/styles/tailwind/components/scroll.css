@@ -1,1 +1,39 @@
-/*  */
+body {
+ &::-webkit-scrollbar {
+  @apply h-[10px]
+									w-[10px];
+ }
+
+ &::-webkit-scrollbar-button {
+  @apply h-0
+									w-0;
+ }
+
+ &::-webkit-scrollbar-track {
+  @apply bg-black;
+
+  &:vertical:hover {
+   @apply bg-aqua-600;
+  }
+ }
+
+ &::-webkit-scrollbar-thumb {
+  @apply cursor-pointer
+							bg-aqua-810;
+
+  &:vertical:hover {
+   @apply bg-aqua-800;
+  }
+ }
+
+ &::-webkit-scrollbar-track-piece {
+ }
+
+ &::-webkit-scrollbar-corner {
+  @apply h-0
+									w-0;
+ }
+
+ &::-webkit-resizer {
+ }
+}
