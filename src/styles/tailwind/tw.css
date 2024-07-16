@@ -238,7 +238,3 @@ a {
 								md:gap-x-[0]
 								md:gap-y-[12px];
 }
-
-.ic-quote {
- @apply text-aqua-500;
-}

@@ -42,6 +42,7 @@ body::-webkit-scrollbar-track-piece{
 body::-webkit-scrollbar-corner{height:0px;width:0px;}
 body::-webkit-resizer{
  }
+.ic-quote{--tw-text-opacity:1;color:rgba(0, 246, 255, 1);color:rgba(0, 246, 255, var(--tw-text-opacity));}
 .fix{margin-left:auto;margin-right:auto;width:100%;max-width:120.2rem;max-width:var(--max-width-xl);padding-left:1.6rem;padding-right:1.6rem;}
 .tab-icon{display:flex;aspect-ratio:1 / 1;width:6.4rem;align-items:center;justify-content:center;border-radius:50%;--tw-bg-opacity:1;background-color:rgba(7, 56, 69, 1);background-color:rgba(7, 56, 69, var(--tw-bg-opacity));--tw-text-opacity:1;color:rgba(0, 246, 255, 1);color:rgba(0, 246, 255, var(--tw-text-opacity));}
 .tab-icon svg{aspect-ratio:1/1;width:50%;}
@@ -379,7 +380,6 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
 .testimonials__title{max-width:58rem;}
 .testimonials__descr{max-width:42.028rem;}
 .boxes{display:flex;-moz-column-gap:18px;column-gap:18px;}
-.ic-quote{--tw-text-opacity:1;color:rgba(0, 246, 255, 1);color:rgba(0, 246, 255, var(--tw-text-opacity));}
 @media (max-width: 73.125rem){
  .fix{max-width:99.2rem;max-width:var(--max-width-lg);}
  .tab-icon{width:5.2rem;}
