@@ -1,0 +1,11 @@
+.btn-hover {
+ @apply duration-[0.15s,0.15s]
+								ease-[linear,linear]
+								will-change-[transform,box-shadow];
+
+ @apply hover:scale-[0.94]
+							 hover:shadow-aqua-100;
+
+ @apply hover:scale-[0.94]
+							 hover:shadow-aqua-100;
+}
