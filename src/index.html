@@ -10,6 +10,7 @@ const {
 				testimonials,
 				getStarted,
 				counter,
+				partners,
     header,
     present,
     about,
@@ -31,38 +32,25 @@ const headData = { appName, appThemeColor, appTitleColor,
  <%- include("view-tmpl/head.html", headData); %>
  <body>
   <noscript><%=misc.nojs %></noscript>
+
   <div class="wrapper">
    <!--  -->
    <header class="main-header s1">
     <!-- prettier-ignore -->
     <div class="fix main-header__fix">
-      <%- include("view-tmpl/components/logo.html", { svg, size: 118 }); %>
-      <%- include("view-tmpl/components/menu.html", { menu }); %>
-      <%- include("view-tmpl/components/burger.html"); %>
-    </div>
+					<%- include("view-tmpl/components/logo.html", { svg, size: 118 }); %>
+					<%- include("view-tmpl/components/menu.html", { menu }); %>
+					<%- include("view-tmpl/components/burger.html"); %>
+				</div>
    </header>
 
-   <%- include("view-tmpl/testimonials.html", {testimonials, svg, img}); %>
-   <%- include("view-tmpl/counter.html", {counter}); %>
-   <%- include("view-tmpl/get-started.html", {getStarted}); %>
-   <%- include("view-tmpl/components/tag.html", { tagData: present, svg }); %>
-
-   <%-
-			include("view-tmpl/components/btn.html",
-			{
-				btn: {
-					label: "Get Started",
-					classes: ["btn--primary", "btn--size-xl"]}
-			});
-			%>
-   <%-
-				include("view-tmpl/components/btn-unique.html", {
-					btn: {
-						label: "Get Started",
-						href: "#"
-					}
-				});
-			%>
+   <%- include("view-tmpl/testimonials.html",          { testimonials, svg, img }); %>
+   <%- include("view-tmpl/counter.html",               { counter }); %>
+   <%- include("view-tmpl/get-started.html",           { getStarted }); %>
+   <%- include("view-tmpl/components/tag.html",        { tagData: present, svg }); %>
+   <%- include("view-tmpl/components/btn.html",        { btn: { label: "Get Started", classes: ["btn--primary", "btn--size-xl"]} }); %>
+   <%- include("view-tmpl/components/btn-unique.html", { btn: { label: "Get Started", href: "#" } }); %>
+   <%- include("view-tmpl/partners.html", {partners, svg}); %>
 
    <h1>The Next Generation Payment Method.</h1>
    <h2>You do the business, we’ll handle themoney.</h2>
@@ -81,6 +69,7 @@ const headData = { appName, appThemeColor, appTitleColor,
     secure.
    </p>
   </div>
+
   <div style="height: 4000px"></div>
 
   <!-- <script type="module" src="index.tsx"></script> -->
