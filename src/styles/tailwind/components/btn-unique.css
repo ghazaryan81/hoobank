@@ -50,9 +50,6 @@
  @apply btn-hover;
 
  &__label {
-  @apply bg-grad-aqua-r-100;
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  @apply text-gradient;
  }
 }
