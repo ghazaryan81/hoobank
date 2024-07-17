@@ -40,6 +40,54 @@
    "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
   },
 
+  "testimonials": {
+   "title": "You do the business, we’ll handle the money.",
+   "descr": "Everything you need to accept card payments and grow your business anywhere on the planet.",
+
+   "segments": [
+    {
+     "id": "1",
+     "descr": "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+     "persons": {
+      "icon": {
+       "img": "person-1.png",
+       "width": "48",
+       "height": "48"
+      },
+      "name": "Herman Jensen",
+      "position": "Founder & Leader"
+     }
+    },
+    {
+     "id": "2",
+     "descr": "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+     "persons": {
+      "icon": {
+       "img": "person-2.png",
+       "width": "48",
+       "height": "48"
+      },
+      "name": "Steve Mark",
+      "position": "Founder & Leader"
+     }
+    },
+
+    {
+     "id": "3",
+     "descr": "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+     "persons": {
+      "icon": {
+       "img": "person-3.png",
+       "width": "48",
+       "height": "48"
+      },
+      "name": "Kenn Gallagher",
+      "position": "Founder & Leader"
+     }
+    }
+   ]
+  },
+
   "present": {
    "title": "For Your Pet’s Natural Life & Care",
    "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt",
