@@ -2,7 +2,7 @@
  @apply flex
 								shrink-0
 								grow
-								items-start
+								items-center
 								gap-x-[1.7rem];
 
  &__img {
