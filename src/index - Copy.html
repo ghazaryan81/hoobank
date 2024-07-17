@@ -1,0 +1,87 @@
+<!-- prettier-ignore -->
+<%
+const {
+  in: { assets, pic, img, svg },
+  out: { styles }
+} = paths;
+
+const {
+  sections: {
+				testimonials,
+				getStarted,
+    header,
+    present,
+    about,
+    services,
+    team,
+    contacts,
+    prices,
+    footer,
+    misc
+  },
+  menu
+} = data;
+
+const headData = { appName, appThemeColor, appTitleColor,
+																			appMaskIcon, assets, pic, img, svg, styles }
+%>
+<!doctype html>
+<html lang="en" translate="no" class="notranslate">
+ <%- include("view-tmpl/head.html", headData); %>
+ <body>
+  <noscript><%=misc.nojs %></noscript>
+  <div class="wrapper">
+   <!--  -->
+   <header class="main-header s1">
+    <!-- prettier-ignore -->
+    <div class="fix main-header__fix">
+      <%- include("view-tmpl/components/logo.html", { svg, size: 118 }); %>
+      <%- include("view-tmpl/components/menu.html", { menu }); %>
+      <%- include("view-tmpl/components/burger.html"); %>
+    </div>
+   </header>
+
+   <%- include("view-tmpl/testimonials.html", {testimonials, svg, img}); %>
+   <%- include("view-tmpl/get-started.html", {getStarted}); %>
+   <%- include("view-tmpl/components/tag.html", { tagData: present, svg }); %>
+
+   <%-
+			include("view-tmpl/components/btn.html",
+			{
+				btn: {
+					label: "Get Started",
+					classes: ["btn--primary", "btn--size-xl"]}
+			});
+			%>
+   <%-
+				include("view-tmpl/components/btn-unique.html", {
+					btn: {
+						label: "Get Started",
+						href: "#"
+					}
+				});
+			%>
+
+   <h1>The Next Generation Payment Method.</h1>
+   <h2>You do the business, we’ll handle themoney.</h2>
+   <h3>3800</h3>
+   <h4>Rewards</h4>
+   <p class="caption-v1">TRUSTED BY COMPANY</p>
+   <p class="caption-v2">20% DISCOUNT FOR1 MONTH ACCOUNT</p>
+
+   <p class="descr-v1">
+    Our team of experts uses a methodology to identify the credit cards most
+    likely to fit your needs. We examine annual percentage rates, annual fees.
+   </p>
+
+   <p class="descr-v2">
+    We take proactive steps make sure your information and transactions are
+    secure.
+   </p>
+  </div>
+
+  <div style="height: 4000px"></div>
+
+  <!-- <script type="module" src="index.tsx"></script> -->
+ </body>
+</html>
