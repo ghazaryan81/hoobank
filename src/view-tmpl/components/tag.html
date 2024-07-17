@@ -1,0 +1,18 @@
+<div class="tag whitespace-nowrap">
+ <span class="badge">
+  <svg class="badge__symbol" width="9.19" height="9.19">
+   <use xlink:href="<%= svg %>/sprite-ic.svg#ic-percent" />
+  </svg>
+  <svg class="badge__bg" width="26.67" height="26.68">
+   <use xlink:href="<%= svg %>/sprite-ic.svg#ic-shape-stamp" />
+  </svg>
+ </span>
+
+ <span class="tag__label">
+  <%- tagData.tag.label[0] %>
+  <span class="opacity-70"><%- tagData.tag.label[1] %></span>
+  <span class="hidden lg:block w-full"></span>
+  <%- tagData.tag.label[2] %>
+  <span class="opacity-70"> <%- tagData.tag.label[3] %> </span>
+ </span>
+</div>
