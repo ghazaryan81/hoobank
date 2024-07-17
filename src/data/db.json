@@ -40,6 +40,12 @@
    "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
   },
 
+  "getStarted": {
+   "title": "Let’s try our service now!",
+   "descr": "Everything you need to accept card payments and grow your business anywhere on the planet.",
+   "btnLabel": "Get Started"
+  },
+
   "testimonials": {
    "title": "You do the business, we’ll handle the money.",
    "descr": "Everything you need to accept card payments and grow your business anywhere on the planet.",
@@ -91,203 +97,12 @@
   "present": {
    "title": "For Your Pet’s Natural Life & Care",
    "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt",
-   "buttons": ["Our Services", "Make Appointment"]
-  },
-
-  "about": {
-   "sup": "Care For Your Pet",
-   "title": "What We Do",
-   "segments": [
-    {
-     "id": "1",
-     "title": "Pet Grooming",
-     "descr": "There are many variatio of passage of Lorem for a Ipsum available",
-     "icon": {
-      "name": "icon-bone",
-      "width": "40.04",
-      "height": "39.98"
-     }
-    },
-    {
-     "id": "2",
-     "title": "Veterinary",
-     "descr": "There are many variatio of passage of Lorem for a Ipsum available",
-     "icon": {
-      "name": "icon-paw",
-      "width": "40",
-      "height": "40"
-     }
-    },
-    {
-     "id": "3",
-     "title": "Dog Setting",
-     "descr": "There are many variatio of passage of Lorem for a Ipsum available",
-     "icon": {
-      "name": "icon-dog",
-      "width": "50",
-      "height": "40"
-     }
-    },
-    {
-     "id": "4",
-     "title": "Healthy Meals",
-     "descr": "There are many variatio of passage of Lorem for a Ipsum available",
-     "icon": {
-      "name": "icon-syringe",
-      "width": "50",
-      "height": "40"
-     }
-    }
-   ]
-  },
-  "services": {
-   "sup": "Our Success Story",
-   "title": "Experience Vet Clinic And Services",
-   "descr": "Aliquam erat volutpat In id fermentum augue, ut pellentesque  Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hakso hendrerit id. In aliquet magna nec lobortis maximus.",
-   "link": {
-    "label": "Know More About Us",
-    "href": "#",
-    "alt": "",
-    "title": ""
-   },
-   "segments": [
-    {
-     "id": "1",
-     "title": "Donec commodo scelerisque laoreet nibh hendrerit"
-    },
-    {
-     "id": "2",
-     "title": "In aliquet magna nec lobortis maximus. Etiam a dolor placerat"
-    },
-    {
-     "id": "3",
-     "title": "Etiam dolor nec elementum ipsum convall Maecenas"
-    }
-   ]
-  },
-  "team": {
-   "sup": "Our Team",
-   "title": "Meet Our Groomers",
-   "segments": [
-    {
-     "id": "1",
-     "title": "Rosalina Wiliam",
-     "descr": "CEO & Founder",
-     "img": {
-      "src": ""
-     }
-    },
-    {
-     "id": "2",
-     "title": "Rosalina Wiliam",
-     "descr": "CEO & Founder",
-     "img": {
-      "src": ""
-     }
-    },
-    {
-     "id": "3",
-     "title": "Rosalina Wiliam",
-     "descr": "CEO & Founder",
-     "img": {
-      "src": ""
-     }
-    },
-    {
-     "id": "4",
-     "title": "Rosalina Wiliam",
-     "descr": "CEO & Founder",
-     "img": {
-      "src": ""
-     }
-    }
-   ]
-  },
-  "contacts": {
-   "title": "Professional Pet Care",
-   "descr": "Pet owners trust us to look after the needs of their beloved companions. We are specialists committed to delivering the very highest of veterinary care and affection.",
-   "link": {
-    "label": "Contact Us Now",
-    "href": "#",
-    "alt": "",
-    "title": ""
+   "buttons": ["Our Services", "Make Appointment"],
+   "tag": {
+    "label": ["20%", "DISCOUNT FOR", "1 MONTH", "ACCOUNT"]
    }
   },
-  "prices": {
-   "segments": [
-    {
-     "id": "1",
-     "title": "Regular Pack",
-     "descr": "3 Days",
-     "list": [
-      "Pet Shower",
-      "Fitness Checkup",
-      "Pet Grooming",
-      "Hair and Nail Cut",
-      "Control Hair Falling"
-     ],
-     "price": {
-      "currency": "$",
-      "value": "150",
-      "period": "Per Visit"
-     },
-     "link": {
-      "label": "Purchase Pack",
-      "href": "#",
-      "alt": "",
-      "title": ""
-     }
-    },
-    {
-     "id": "2",
-     "title": "Exclusive Pack",
-     "descr": "10 Days",
-     "list": [
-      "Pet Shower",
-      "Fitness Checkup",
-      "Pet Grooming",
-      "Hair and Nail Cut",
-      "Control Hair Falling",
-      "Brush & Blow Dry",
-      "Pet Park And Games"
-     ],
-     "price": {
-      "currency": "$",
-      "value": "300",
-      "period": "Per Visit"
-     },
-     "link": {
-      "label": "Purchase Pack",
-      "href": "#",
-      "alt": "",
-      "title": ""
-     }
-    },
-    {
-     "id": "3",
-     "title": "Regular Pack",
-     "descr": "3 Days",
-     "list": [
-      "Pet Shower",
-      "Fitness Checkup",
-      "Pet Grooming",
-      "Hair and Nail Cut",
-      "Control Hair Falling"
-     ],
-     "price": {
-      "currency": "$",
-      "value": "550",
-      "period": "Per Visit"
-     },
-     "link": {
-      "label": "Purchase Pack",
-      "href": "#",
-      "alt": "",
-      "title": ""
-     }
-    }
-   ]
-  },
+
   "footer": {
    "title": ["", ""],
    "descr": "A new way to make the payments easy, reliable and secure.",

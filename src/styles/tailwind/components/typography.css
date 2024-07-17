@@ -96,6 +96,7 @@ $sm: $mq.sm;
   @apply md:text-[1.3rem];
  }
 
+ .btn,
  .button,
  button {
   @apply text-[1.8rem]

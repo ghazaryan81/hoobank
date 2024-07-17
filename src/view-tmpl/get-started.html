@@ -1,0 +1,15 @@
+<section class="get-started s9">
+ <div class="fix get-started__fix">
+  <div class="box box--start">
+   <div class="get-started__info">
+    <h2><%- getStarted.title %></h2>
+    <p class="descr-v1 get-started__info-descr"><%- getStarted.descr %></p>
+   </div>
+   <%-
+			include("view-tmpl/components/btn.html",
+			{
+				btn: {label: getStarted.btnLabel, classes: ["btn--primary", "btn--size-xl"]}
+			});
+			%></div>
+ </div>
+</section>

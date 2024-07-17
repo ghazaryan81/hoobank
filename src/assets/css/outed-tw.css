@@ -352,7 +352,8 @@ select,
 .caption-v2{font-size:1.8rem;line-height:120%;}
 .descr-v1{font-size:1.8rem;font-weight:300 !important;font-weight:var(--font-weight-300) !important;line-height:180%;color:rgba(255, 255, 255, 0.7);color:rgba(255, 255, 255, var(--opacity-70));}
 .descr-v2{font-size:1.6rem;line-height:150%;color:rgba(255, 255, 255, 0.7);color:rgba(255, 255, 255, var(--opacity-70));}
-.button,
+.btn,
+ .button,
  button{font-size:1.8rem;font-weight:500;font-weight:var(--font-weight-500);line-height:150%;}
 .link{font-size:1.6rem;line-height:120%;}
 *, ::before, ::after{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-ring-offset-shadow:0 0 rgba(0,0,0,0);--tw-ring-shadow:0 0 rgba(0,0,0,0);--tw-shadow:0 0 rgba(0,0,0,0);--tw-shadow-colored:0 0 rgba(0,0,0,0);}
@@ -369,7 +370,6 @@ select,
 .w-\[57\.265\%\]{width:57.265%;}
 .w-full{width:100%;}
 .max-w-\[48\.3rem\]{max-width:48.3rem;}
-.grow{flex-grow:1;}
 .whitespace-nowrap{white-space:nowrap;}
 .bg-red-500\/40{background-color:rgba(239, 68, 68, 0.4);background-color:rgba(239, 68, 68, var(--opacity-40));}
 .bg-red-500\/70{background-color:rgba(239, 68, 68, 0.7);background-color:rgba(239, 68, 68, var(--opacity-70));}
@@ -404,6 +404,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .caption-v2{font-size:1.8rem;}
  .descr-v1{font-size:1.6rem;}
  .descr-v2{font-size:1.4rem;}
+ .btn,
  .button,
  button{font-size:1.4rem;}
  .link{font-size:1.6rem;}
@@ -435,6 +436,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .caption-v2{font-size:1.8rem;}
  .descr-v1{font-size:1.4rem;}
  .descr-v2{font-size:1.2rem;}
+ .btn,
  .button,
  button{font-size:1.1rem;}
  .link{font-size:1.3rem;}
@@ -462,6 +464,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  h3{font-size:3.4rem;}
  .caption-v2{font-size:1.4rem;line-height:140%;}
  .descr-v2{font-size:1.3rem;}
+ .btn,
  .button,
  button{font-size:1rem;line-height:1.5rem;}
  .link{font-size:1.4rem;}
