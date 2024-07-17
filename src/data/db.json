@@ -65,6 +65,17 @@
    ]
   },
 
+  "cardDeal": {
+   "title": "Find a better card deal in few easy steps.",
+   "descr": "Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.",
+   "img": {
+    "src": "card-deal.png",
+    "width": "533",
+    "height": "470",
+    "alt": ""
+   }
+  },
+
   "partners": {
    "segments": [
     {

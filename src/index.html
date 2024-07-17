@@ -11,6 +11,7 @@ const {
 				getStarted,
 				counter,
 				partners,
+				cardDeal,
     header,
     present,
     about,
@@ -44,13 +45,15 @@ const headData = { appName, appThemeColor, appTitleColor,
 				</div>
    </header>
 
+   <%- include("view-tmpl/partners.html",              { partners, svg }); %>
    <%- include("view-tmpl/testimonials.html",          { testimonials, svg, img }); %>
    <%- include("view-tmpl/counter.html",               { counter }); %>
    <%- include("view-tmpl/get-started.html",           { getStarted }); %>
+   <%- include("view-tmpl/card-deal.html",             {cardDeal, svg, img}); %>
+
    <%- include("view-tmpl/components/tag.html",        { tagData: present, svg }); %>
    <%- include("view-tmpl/components/btn.html",        { btn: { label: "Get Started", classes: ["btn--primary", "btn--size-xl"]} }); %>
    <%- include("view-tmpl/components/btn-unique.html", { btn: { label: "Get Started", href: "#" } }); %>
-   <%- include("view-tmpl/partners.html", {partners, svg}); %>
 
    <h1>The Next Generation Payment Method.</h1>
    <h2>You do the business, we’ll handle themoney.</h2>
