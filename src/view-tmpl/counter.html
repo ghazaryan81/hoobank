@@ -1,0 +1,16 @@
+<section class="counter s3">
+ <div class="fix counter__fix">
+  <div class="counter__list">
+   <% counter.segments.forEach((item, index) => { %>
+   <div class="counter__item">
+    <h3><%= item.numb %></h3>
+    <span class="caption-v1 counter__caption"><%= item.caption %></span>
+   </div>
+   <% if (index < counter.segments.length-1) { %><span
+    class="counter__div"
+   ></span
+   ><% } %>
+   <% }) %>
+  </div>
+ </div>
+</section>
