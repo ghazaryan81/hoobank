@@ -1,0 +1,27 @@
+<section class="card-deal s6">
+ <div class="fix card-deal__fix">
+  <div class="card-deal__info">
+   <h2 class="card-deal__title"><%=cardDeal.title %></h2>
+   <p class="descr-v1 card-deal__descr"><%=cardDeal.descr %></p>
+   <!-- prettier-ignore -->
+   <div class="card-deal__btn-alignment">
+      	<%- include(
+								"view-tmpl/components/btn.html",
+								{
+									btn: {
+									label: "Get Started",
+									classes: ["btn--primary", "btn--size-xl"]}
+								}
+								);
+							%>
+     	</div>
+  </div>
+  <img
+   src="<%=img %>/<%=cardDeal.img.src %>"
+   class="card-deal__img"
+   alt="<%=cardDeal.img.alt %>"
+   width="<%=cardDeal.img.width %>"
+   height="<%=cardDeal.img.height %>"
+  />
+ </div>
+</section>
