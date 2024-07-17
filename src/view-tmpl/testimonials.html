@@ -1,0 +1,31 @@
+<section class="testimonials s7">
+ <div class="fix testimonials__fix">
+  <div class="testimonials__head">
+   <h2 class="testimonials__title"><%- testimonials.title %></h2>
+   <p class="descr-v1 testimonials__descr"><%- testimonials.descr %></p>
+  </div>
+  <div class="boxes">
+   <% testimonials.segments.forEach((item, index) => { %>
+   <div class="box box--testimonials">
+    <svg class="ic-quote mb-[4.1rem]" width="42.6" height="27.6">
+     <use xlink:href="<%= svg %>/sprite-ic.svg#ic-quote" />
+    </svg>
+    <p class="descr-v1 mb-[2.4rem]"><%= item.descr %></p>
+    <div class="person">
+     <img
+      src="<%=img %>/<%= item.persons.icon.img %>"
+      alt=""
+      width="<%= item.persons.icon.width %>"
+      height="<%= item.persons.icon.height %>"
+      class="person__img"
+     />
+     <div class="person__info">
+      <p class="caption-v2"><%= item.persons.name %></p>
+      <p class="descr-v1"><%= item.persons.position %></p>
+     </div>
+    </div>
+   </div>
+   <% }) %>
+  </div>
+ </div>
+</section>
