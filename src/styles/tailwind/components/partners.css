@@ -1,0 +1,20 @@
+.partners {
+ &__list {
+  @apply mx-auto
+									my-0
+									flex
+									max-w-[106.6rem]
+									flex-wrap
+									items-center
+									justify-between
+									pt-[1rem];
+
+  @apply xl:pt-[3rem];
+
+  @apply lg:max-w-[44.946rem]
+									lg:gap-y-[2.1rem];
+
+  @apply md:justify-center
+									md:gap-y-[4.5rem];
+ }
+}

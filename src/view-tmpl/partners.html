@@ -1,0 +1,14 @@
+<section class="partners s8">
+ <div class="fix partners__fix">
+  <div class="partners__list">
+   <% partners.segments.forEach((item, index) => { %>
+   <img
+    src="<%=svg %>/logos/<%=item.img.src %>"
+    alt="<%=item.img.alt %>"
+    width="<%=item.img.width %>"
+    height="<%=item.img.height %>"
+   />
+   <% }) %>
+  </div>
+ </div>
+</section>

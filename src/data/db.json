@@ -65,6 +65,43 @@
    ]
   },
 
+  "partners": {
+   "segments": [
+    {
+     "img": {
+      "src": "airbnb.svg",
+      "width": 192.22,
+      "height": 59.99,
+      "alt": ""
+     }
+    },
+    {
+     "img": {
+      "src": "binance.svg",
+      "width": 192.25,
+      "height": 38.63,
+      "alt": ""
+     }
+    },
+    {
+     "img": {
+      "src": "coinbase.svg",
+      "width": 189.01,
+      "height": 41.25,
+      "alt": ""
+     }
+    },
+    {
+     "img": {
+      "src": "dropbox.svg",
+      "width": 192.25,
+      "height": 37.86,
+      "alt": ""
+     }
+    }
+   ]
+  },
+
   "testimonials": {
    "title": "You do the business, we’ll handle the money.",
    "descr": "Everything you need to accept card payments and grow your business anywhere on the planet.",

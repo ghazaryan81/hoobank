@@ -34,6 +34,9 @@
 @import url("./components/get-started.css");
 @import url("./components/nav-menu.css");
 
+@import url("./components/partners.css");
+@import url("./components/counter.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -60,54 +63,4 @@ body {
 a {
  @apply font-400
 								text-white/70;
-}
-
-.counter {
- &__fix {
-  @apply py-[3rem];
- }
-
- &__list {
-  @apply mx-auto
-									my-0
-									flex
-									w-full
-									flex-wrap
-									items-center
-									justify-between;
-
-  @apply xl:max-w-full
-									xl:justify-center
-									xl:gap-x-[8.9rem]
-									xl:gap-y-[1rem];
-
-  @apply md:max-w-full
-									md:gap-x-0
-									md:gap-y-0;
- }
-
- &__item {
-  @apply flex
-									items-center
-									gap-x-[2.5rem];
-
-  @apply md:flex-col
-									md:gap-x-0
-									md:pb-[3.1rem];
- }
-
- &__div {
-  @apply h-[1.3rem]
-									w-0
-									border
-									border-solid
-									border-white/60;
-
-  @apply xl:hidden;
- }
-
- &__caption {
-  @apply text-gradient
-									whitespace-nowrap;
- }
 }
