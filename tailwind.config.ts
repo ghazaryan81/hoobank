@@ -13,6 +13,10 @@ import {
 import { addStr, toTwObj } from "./src/app/func/func";
 import { dir, ext } from "./src/app/def/base";
 
+import { layoutSizes } from "./src/app/def/base/layout-sizes";
+
+import { toRemObj } from "./src/app/func/func";
+
 /* prettier-ignore */
 const { pug, js, mjs, jsx, mjsx, ts, mts, mtsx, tsx, json, scss,
       sass, css, less, styl, html, htm, pic, ejs } = ext;

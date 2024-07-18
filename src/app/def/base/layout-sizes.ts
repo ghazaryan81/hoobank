@@ -7,17 +7,24 @@
 
 export const layoutSizes: IObjNested<n> | any = {
   sides: {
-    sm: 16,
-    md: 16,
+    xl: 16,
     lg: 16,
-    xl: 16
+    md: 16,
+    sm: 16
+  },
+
+  gutters: {
+    xl: 18,
+    lg: 12,
+    md: 8,
+    sm: 12
   },
 
   widths: {
-    sm: 288,
-    md: 736,
+    xl: 1170,
     lg: 960,
-    xl: 1170
+    md: 736,
+    sm: 288
   },
 
   fullWidths() {
