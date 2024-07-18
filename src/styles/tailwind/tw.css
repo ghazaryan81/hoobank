@@ -39,6 +39,7 @@
 @import url("./components/card-deal.css");
 
 @tailwind base;
+/* @tailwind preflight; */
 @tailwind components;
 @tailwind utilities;
 
@@ -46,6 +47,12 @@ $xl: $mq.xl;
 $lg: $mq.lg;
 $md: $mq.md;
 $sm: $mq.sm;
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
 
 :root {
  @apply font-primary

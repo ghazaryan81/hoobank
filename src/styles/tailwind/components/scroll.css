@@ -13,7 +13,7 @@ body {
   @apply bg-black;
 
   &:vertical:hover {
-   @apply bg-aqua-600;
+   @apply bg-aqua-600/10;
   }
  }
 
