@@ -129,6 +129,12 @@ body::-webkit-resizer{
 
  -webkit-background-clip:text;
  -webkit-text-fill-color:transparent;}
+.card-deal__fix{display:flex;width:100%;justify-content:space-between;padding-top:8rem;padding-bottom:8rem;}
+.card-deal__info{max-width:57.6rem;padding-top:1.1rem;}
+.card-deal__info button{margin-left:auto;margin-right:auto;}
+.card-deal__title{padding-bottom:3.4rem;}
+.card-deal__descr{padding-bottom:4.6rem;}
+.card-deal__img{aspect-ratio:53.3/47;height:auto;width:53.3rem;}
 /* ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com */
 *,
 ::before,
@@ -388,12 +394,6 @@ select,
 html,
 body{--tw-bg-opacity:1;background-color:rgba(0, 4, 14, 1);background-color:rgba(0, 4, 14, var(--tw-bg-opacity));font-weight:400;font-weight:var(--font-weight-400);}
 a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0.7);color:rgba(255, 255, 255, var(--opacity-70));}
-.card-deal__fix{display:flex;width:100%;justify-content:space-between;padding-top:8rem;padding-bottom:8rem;}
-.card-deal__info{max-width:57.6rem;padding-top:1.1rem;}
-.card-deal__info button{margin-left:auto;margin-right:auto;}
-.card-deal__title{padding-bottom:3.4rem;}
-.card-deal__descr{padding-bottom:4.6rem;}
-.card-deal__img{aspect-ratio:53.3/47;height:auto;width:53.3rem;}
 @media (max-width: 73.125rem){
  .fix{max-width:99.2rem;max-width:var(--max-width-lg);}
  .tab-icon{width:5.2rem;}
@@ -409,6 +409,11 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .partners__list{padding-top:3rem;}
  .counter__list{max-width:100%;justify-content:center;-moz-column-gap:8.9rem;column-gap:8.9rem;row-gap:1rem;}
  .counter__div{display:none;}
+ .card-deal__fix{padding-top:5rem;padding-bottom:5rem;}
+ .card-deal__info{max-width:47.4rem;padding-top:0;}
+ .card-deal__title{padding-bottom:2.2rem;}
+ .card-deal__descr{padding-bottom:3.1rem;}
+ .card-deal__img{width:42.1rem;}
  .h1,
  h1{font-size:6.0001rem;}
  .h2,
@@ -424,12 +429,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .btn,
  .button,
  button{font-size:1.4rem;}
- .link{font-size:1.6rem;}
- .card-deal__fix{padding-top:5rem;padding-bottom:5rem;}
- .card-deal__info{max-width:47.4rem;padding-top:0;}
- .card-deal__title{padding-bottom:2.2rem;}
- .card-deal__descr{padding-bottom:3.1rem;}
- .card-deal__img{width:42.1rem;}}
+ .link{font-size:1.6rem;}}
 @media (max-width: 60rem){
  .fix{max-width:76.8rem;max-width:var(--max-width-md);}
  .tab-icon{width:4rem;}
@@ -445,6 +445,9 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .testimonials__descr{margin-left:auto;margin-right:auto;}
  .list-links{white-space:nowrap;padding-top:2.5rem;}
  .partners__list{max-width:44.946rem;row-gap:2.1rem;}
+ .card-deal__fix{padding-top:8rem;padding-bottom:8rem;}
+ .card-deal__info{max-width:36.4rem;}
+ .card-deal__img{width:32.2rem;}
  .h1,
  h1{font-size:4.7rem;}
  .h2,
@@ -460,9 +463,6 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .button,
  button{font-size:1.1rem;}
  .link{font-size:1.3rem;}
- .card-deal__fix{padding-top:8rem;padding-bottom:8rem;}
- .card-deal__info{max-width:36.4rem;}
- .card-deal__img{width:32.2rem;}
  .lg\:block{display:block;}}
 @media (max-width: 46rem){
  .fix{max-width:32rem;max-width:var(--max-width-sm);}
@@ -482,6 +482,11 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .partners__list{justify-content:center;row-gap:4.5rem;}
  .counter__list{max-width:100%;-moz-column-gap:0px;column-gap:0px;row-gap:0px;}
  .counter__item{flex-direction:column;-moz-column-gap:0px;column-gap:0px;padding-bottom:3.1rem;}
+ .card-deal__fix{flex-direction:column;padding-top:5rem;padding-bottom:5rem;}
+ .card-deal__info{max-width:100%;}
+ .card-deal__btn-alignment{display:flex;justify-content:center;}
+ .card-deal__title{padding-bottom:2rem;}
+ .card-deal__img{margin-top:2.6rem;width:28.7rem;}
  .h1,
  h1{font-size:2.4rem;}
  .h2,
@@ -494,9 +499,4 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .button,
  button{font-size:1rem;line-height:1.5rem;}
  .link{font-size:1.4rem;}
- .card-deal__fix{flex-direction:column;padding-top:5rem;padding-bottom:5rem;}
- .card-deal__info{max-width:100%;}
- .card-deal__btn-alignment{display:flex;justify-content:center;}
- .card-deal__title{padding-bottom:2rem;}
- .card-deal__img{margin-top:2.6rem;width:28.7rem;}
  .md\:block{display:block;}}
