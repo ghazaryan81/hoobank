@@ -33,7 +33,15 @@ const headData = { appName, appThemeColor, appTitleColor,
  <%- include("view-tmpl/head.html", headData); %>
  <body>
   <noscript><%=misc.nojs %></noscript>
-
+  <%- include("view-tmpl/components/h1.html",
+			{
+				h1:
+				{
+					label: "The Next Generation Payment Method.",
+					classes: [""]
+				}
+			});
+		%>
   <!-- <script type="module" src="index.tsx"></script> -->
  </body>
 </html>
