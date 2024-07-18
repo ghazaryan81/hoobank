@@ -385,6 +385,7 @@ select,
 .rel{position:relative;left:0px;top:0px;}
 .h1,
  h1{font-size:7.2rem;font-weight:600;line-height:140%;}
+.\!h1{font-size:7.2rem;font-weight:600;line-height:140%;}
 .h2,
  h2{font-size:4.8rem;font-weight:600;font-weight:var(--font-weight-600);line-height:160%;}
 .h3,
@@ -410,7 +411,6 @@ select,
 .w-\[57\.265\%\]{width:57.265%;}
 .w-full{width:100%;}
 .whitespace-nowrap{white-space:nowrap;}
-.border{border-width:1px;}
 .bg-red-500\/40{background-color:rgba(239, 68, 68, 0.4);background-color:rgba(239, 68, 68, var(--opacity-40));}
 .bg-red-500\/70{background-color:rgba(239, 68, 68, 0.7);background-color:rgba(239, 68, 68, var(--opacity-70));}
 .opacity-70{opacity:0.7;opacity:var(--opacity-70);}
@@ -447,6 +447,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .card-deal__img{width:42.1rem;}
  .h1,
  h1{font-size:6.0001rem;}
+ .\!h1{font-size:6.0001rem;}
  .h2,
  h2{font-size:3.9rem;}
  .h3,
@@ -482,6 +483,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .card-deal__img{width:32.2rem;}
  .h1,
  h1{font-size:4.7rem;}
+ .\!h1{font-size:4.7rem;}
  .h2,
  h2{font-size:3rem;}
  .h3,
@@ -522,6 +524,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
  .card-deal__img{margin-top:2.6rem;width:28.7rem;}
  .h1,
  h1{font-size:2.4rem;}
+ .\!h1{font-size:2.4rem;}
  .h2,
  h2{font-size:2.4rem;}
  .h3,
