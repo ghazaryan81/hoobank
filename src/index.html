@@ -33,15 +33,59 @@ const headData = { appName, appThemeColor, appTitleColor,
  <%- include("view-tmpl/head.html", headData); %>
  <body>
   <noscript><%=misc.nojs %></noscript>
-  <%- include("view-tmpl/components/h1.html",
-			{
-				h1:
-				{
-					label: "The Next Generation Payment Method.",
-					classes: [""]
-				}
-			});
-		%>
-  <!-- <script type="module" src="index.tsx"></script> -->
+
+  <div class="wrapper">
+   <!--  -->
+   <header class="main-header s1">
+    <!-- prettier-ignore -->
+    <div class="fix main-header__fix">
+					<%- include("view-tmpl/components/logo.html", { svg, size: 118 }); %>
+					<%- include("view-tmpl/components/menu.html", { menu }); %>
+					<%- include("view-tmpl/components/burger.html"); %>
+				</div>
+   </header>
+
+   <!--  -->
+   <section class="billing-control s5">
+    <div class="fix block-info billing-control__fix">
+     <div class="block-info__1 a">
+      <img
+       src="<%= img %>/billing.png"
+       class="billing-control__img"
+       alt=""
+       width="531"
+       height="457"
+      />
+     </div>
+
+     <div class="block-info__2 b">
+      <h2 class="billing-control__title">
+       Easily control your billing & invoicing.
+      </h2>
+     </div>
+
+     <div class="block-info__3 c">
+      <p class="descr-v1 billing-control__descr">
+       Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
+       neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+      </p>
+     </div>
+
+     <div class="block-info__4 d">
+      <!--  -->
+      <div class="flex gap-x-[3.2rem] billing-control__marketplace">
+       <a href="#" class="btn-marketplace btn-marketplace--google-play">
+        <img src="<%= svg %>/logos/google-play.svg" alt="" width="102" />
+       </a>
+       <a href="#" class="btn-marketplace btn-marketplace--app-store">
+        <img src="<%= svg %>/logos/app-store.svg" alt="" width="102" />
+       </a>
+      </div>
+      <!-- / -->
+     </div>
+    </div>
+   </section>
+   <!-- / -->
+  </div>
  </body>
 </html>
