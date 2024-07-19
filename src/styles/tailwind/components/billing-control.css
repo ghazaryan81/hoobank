@@ -1,0 +1,43 @@
+.billing-control {
+ &__fix {
+  @apply py-[6rem];
+
+  @apply xl:py-[4rem];
+ }
+
+ &__img {
+  @apply mt-[1.5rem]
+									aspect-[531/457]
+									w-[53.1rem];
+
+  @apply xl:mt-[0]
+									xl:w-[43.4rem];
+
+  @apply lg:mt-[3.4rem]
+									lg:w-[33.3rem];
+
+  @apply md:w-full;
+  @apply md:mb-[3rem];
+ }
+
+ &__title {
+  @apply pb-[1.4rem]
+									pt-[1.5rem];
+
+  @apply xl:pt-[0];
+
+  @apply lg:pt-[3.5rem];
+
+  @apply md:pt-[0];
+ }
+
+ &__descr {
+  @apply pb-[3.5rem];
+  @apply md:pb-[0rem];
+ }
+
+ &__marketplace {
+  @apply flex
+									gap-x-[3.2rem];
+ }
+}

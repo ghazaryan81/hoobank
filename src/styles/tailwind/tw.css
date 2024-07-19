@@ -14,11 +14,13 @@
 @import url("./components/btn-hover.css");
 @import url("./components/btn.css");
 @import url("./components/btn-unique.css");
+@import url("./components/btn-marketplace.css");
 
 @import url("./components/tag.css");
 @import url("./components/person.css");
 @import url("./components/boxes.css");
 @import url("./components/box.css");
+@import url("./components/block-info.css");
 
 @import url("./components/logos.css");
 @import url("./components/burger.css");
@@ -33,6 +35,7 @@
 @import url("./components/list-links.css");
 @import url("./components/get-started.css");
 @import url("./components/nav-menu.css");
+@import url("./components/billing-control.css");
 
 @import url("./components/partners.css");
 @import url("./components/counter.css");
@@ -65,115 +68,4 @@ body {
 a {
  @apply font-400
 								text-white/70;
-}
-
-.billing-control {
- &__fix {
-  @apply py-[6rem];
-
-  @apply xl:py-[4rem];
- }
-
- &__img {
-  @apply mt-[1.5rem]
-									aspect-[531/457]
-									w-[53.1rem];
-
-  @apply xl:mt-[0]
-									xl:w-[43.4rem];
-
-  @apply lg:mt-[3.4rem]
-									lg:w-[33.3rem];
-
-  @apply md:w-full;
-  @apply md:mb-[3rem];
- }
-
- &__title {
-  @apply pb-[1.4rem]
-									pt-[1.5rem];
-
-  @apply xl:pt-[0];
-
-  @apply lg:pt-[3.5rem];
-
-  @apply md:pt-[0];
- }
-
- &__descr {
-  @apply pb-[3.5rem];
-  @apply md:pb-[0rem];
- }
-
- &__marketplace {
-  @apply flex
-									gap-x-[3.2rem];
- }
-}
-
-.block-info {
- @apply grid;
-
- grid-template-columns: repeat(12, 1fr);
-
- grid-template-areas:
-  "a a a a a a b b b b b b"
-  "a a a a a a c c c c c c"
-  "a a a a a a d d d d d d"
-  "a a a a a a e e e e e e";
-
- @screen xl {
-  grid-template-areas:
-   "a a a a a a a b b b b b"
-   "a a a a a a a c c c c c"
-   "a a a a a a a d d d d d"
-   "a a a a a a a e e e e e";
- }
-
- @screen lg {
-  grid-template-areas:
-   "a a a a a a b b b b b b"
-   "a a a a a a c c c c c c"
-   "a a a a a a d d d d d d"
-   "a a a a a a e e e e e e";
- }
-
- @screen md {
-  grid-template-areas:
-   "b b b b b b b b b b b b"
-   "c c c c c c c c c c c c"
-   "a a a a a a a a a a a a"
-   "d d d d d d d d d d d d"
-   "e e e e e e e e e e e e";
- }
-
- &__1 {
-  /* img */
-  grid-area: a;
- }
-
- &__2 {
-  /* title */
-  grid-area: b;
- }
-
- &__3 {
-  /* descr */
-  grid-area: c;
- }
-
- &__4 {
-  /* marketplace */
-  grid-area: d;
- }
-}
-
-.btn-marketplace {
- @apply flex
-								h-[4.2rem]
-								w-[13rem]
-								items-center
-								justify-center
-								rounded-[6.5px]
-								bg-black;
 }

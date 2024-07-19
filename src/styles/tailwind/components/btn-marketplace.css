@@ -1,0 +1,9 @@
+.btn-marketplace {
+ @apply flex
+								h-[4.2rem]
+								w-[13rem]
+								items-center
+								justify-center
+								rounded-[6.5px]
+								bg-black;
+}
