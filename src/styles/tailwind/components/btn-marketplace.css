@@ -1,9 +1,41 @@
 .btn-marketplace {
- @apply flex
+ @apply relative
+								left-0
+								top-0
+								z-[1]
+								flex
 								h-[4.2rem]
 								w-[13rem]
 								items-center
-								justify-center
+  						justify-center
 								rounded-[6.5px]
 								bg-black;
+
+ @apply transition-[transform,box-shadow]
+								duration-[0.16s,0.16s]
+								ease-[linear,linear]
+								will-change-[transform,box-shadow];
+
+ &:after {
+  @apply absolute
+									bottom-0
+									left-0
+									right-0
+									top-0
+									z-[-1]
+									rounded-[inherit]
+									bg-grad-aqua-r-100
+									opacity-0
+									content-[""];
+
+  @apply transition-[opacity]
+									duration-[0.16s]
+									ease-linear
+									will-change-[opacity];
+ }
+
+ @apply hover:translate-x-0
+								hover:translate-y-[-5.001px]
+								hover:shadow-aqua-100
+								hover:after:opacity-100;
 }

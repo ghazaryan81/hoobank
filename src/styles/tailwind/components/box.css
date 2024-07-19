@@ -60,10 +60,6 @@
 
   @apply md:px-[2.5rem];
 
-  &:hover:after {
-   @apply opacity-100;
-  }
-
   &:after {
    @apply absolute
 										inset-0
@@ -78,6 +74,10 @@
 									 will-change-[opacity];
 
    background: svg-load("../../../assets/svg/gradient-testimonial.svg");
+  }
+
+  &:hover:after {
+   @apply opacity-100;
   }
  }
 }
