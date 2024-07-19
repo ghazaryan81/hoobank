@@ -1,0 +1,56 @@
+.block-info {
+ @apply grid;
+
+ grid-template-columns: repeat(12, 1fr);
+
+ grid-template-areas:
+  "a a a a a a b b b b b b"
+  "a a a a a a c c c c c c"
+  "a a a a a a d d d d d d"
+  "a a a a a a e e e e e e";
+
+ @screen xl {
+  grid-template-areas:
+   "a a a a a a a b b b b b"
+   "a a a a a a a c c c c c"
+   "a a a a a a a d d d d d"
+   "a a a a a a a e e e e e";
+ }
+
+ @screen lg {
+  grid-template-areas:
+   "a a a a a a b b b b b b"
+   "a a a a a a c c c c c c"
+   "a a a a a a d d d d d d"
+   "a a a a a a e e e e e e";
+ }
+
+ @screen md {
+  grid-template-areas:
+   "b b b b b b b b b b b b"
+   "c c c c c c c c c c c c"
+   "a a a a a a a a a a a a"
+   "d d d d d d d d d d d d"
+   "e e e e e e e e e e e e";
+ }
+
+ &__1 {
+  /* img */
+  grid-area: a;
+ }
+
+ &__2 {
+  /* title */
+  grid-area: b;
+ }
+
+ &__3 {
+  /* descr */
+  grid-area: c;
+ }
+
+ &__4 {
+  /* marketplace */
+  grid-area: d;
+ }
+}
