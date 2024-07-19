@@ -62,12 +62,22 @@
   @apply md:px-[2.5rem]
 									md:py-[4rem];
 
+  &:hover:after {
+   @apply opacity-100;
+  }
+
   &:after {
    @apply absolute
 										inset-0
 										z-[-1]
 										rounded-[inherit]
+										opacity-30
 										content-[""];
+
+   @apply transition-opacity
+									 duration-[0.16s]
+									 ease-linear
+									 will-change-[opacity];
 
    background: svg-load("../../../assets/svg/gradient-testimonial.svg");
   }
