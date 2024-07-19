@@ -106,7 +106,8 @@ a {
  }
 
  &__marketplace {
-  text-decoration: none;
+  @apply flex
+									gap-x-[3.2rem];
  }
 }
 

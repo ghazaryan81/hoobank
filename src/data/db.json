@@ -65,6 +65,12 @@
    ]
   },
 
+  "billingControl": {
+   "title": "Easily control your billing & invoicing.",
+   "descr": "Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.",
+   "img": "billing.png"
+  },
+
   "cardDeal": {
    "title": "Find a better card deal in few easy steps.",
    "descr": "Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.",
