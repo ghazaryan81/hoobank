@@ -35,25 +35,16 @@ const headData = { appName, appThemeColor, appTitleColor,
  <%- include("view-tmpl/head.html", headData); %>
  <body>
   <noscript><%=misc.nojs %></noscript>
-
+  <!-- prettier-ignore -->
   <div class="wrapper">
-   <!--  -->
-   <header class="main-header s1">
-    <!-- prettier-ignore -->
-    <div class="fix main-header__fix">
-					<%- include("view-tmpl/components/logo.html", { svg, size: 118 }); %>
-					<%- include("view-tmpl/components/menu.html", { menu }); %>
-					<%- include("view-tmpl/components/burger.html"); %>
-				</div>
-   </header>
-
+			<%- include("view-tmpl/header.html",                { svg, menu }); %>
    <%- include("view-tmpl/partners.html",              { partners, svg }); %>
    <%- include("view-tmpl/testimonials.html",          { testimonials, svg, img }); %>
    <%- include("view-tmpl/counter.html",               { counter }); %>
    <%- include("view-tmpl/get-started.html",           { getStarted }); %>
-   <%- include("view-tmpl/card-deal.html",             {cardDeal, svg, img}); %>
-   <%- include("view-tmpl/billing-control.html",       {billingControl, svg, img}); %>
-   <%- include("view-tmpl/handle-money.html",          {handleMoney, svg, img}); %>
+   <%- include("view-tmpl/card-deal.html",             { cardDeal, svg, img }); %>
+   <%- include("view-tmpl/billing-control.html",       { billingControl, svg, img }); %>
+   <%- include("view-tmpl/handle-money.html",          { handleMoney, svg, img }); %>
   </div>
  </body>
 </html>
