@@ -1,3 +1,23 @@
+/* .s4 {
+ background: url(../../assets/img/tmp/sections/1-4.png) no-repeat center top;
+ min-height: 54.1rem;
+
+ @media (max-width: $xl) {
+  background: url(../../assets/img/tmp/sections/2-4.png) no-repeat center top;
+  min-height: 50.5rem;
+ }
+
+ @media (max-width: $lg) {
+  background: url(../../assets/img/tmp/sections/3-4.png) no-repeat center top;
+  min-height: 52.6rem;
+ }
+
+ @media (max-width: $md) {
+  background: url(../../assets/img/tmp/sections/4-4.png) no-repeat center top;
+  min-height: 79.6rem;
+ }
+} */
+
 /* .s1 {
  background: url(../../assets/img/tmp/sections/1-1.png) no-repeat center top;
  min-height: 9.3rem;

@@ -1,11 +1,15 @@
 .tab-icon {
- @apply flex
+ @apply mt-[0.3rem]
+								flex
 								aspect-square
 								w-[6.4rem]
+								flex-shrink-0
+								flex-grow-0
 								items-center
 								justify-center
+								self-start
 								rounded-[50%]
-								bg-aqua-810
+								bg-aqua-810/20
 								text-aqua-500;
 
  @apply xl:w-[5.2rem];

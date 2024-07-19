@@ -1,0 +1,33 @@
+<section class="handle-money s4">
+ <div class="fix handle-money__fix info-block-v1">
+  <div class="info-block-v1__1">
+   <h2 class="handle-money__title"><%= handleMoney.title %></h2>
+  </div>
+  <div class="info-block-v1__2">
+   <p class="descr-v1 handle-money__descr"><%= handleMoney.descr %></p>
+  </div>
+  <div class="info-block-v1__3">
+   <%- include("view-tmpl/components/btn.html", { btn: { label: "GetStarted",
+   classes: [ "btn--primary", "btn--size-xl", "handle-money__btn" ] } }); %>
+  </div>
+  <div class="info-block-v1__4">
+   <% handleMoney.segments.forEach((item, index) => { %>
+   <div class="tab">
+    <span class="tab-icon">
+     <svg
+      preserveAspectRatio="xMinYMin"
+      width="<%= item.icon.width %>"
+      height="<%= item.icon.height %>"
+     >
+      <use xlink:href="<%= svg %>/sprite-ic.svg#<%= item.icon.name %>"></use>
+     </svg>
+    </span>
+    <div class="tab__info">
+     <h4 class="tab__title"><%= item.title %></h4>
+     <p class="descr-v2 tab__descr"><%= item.descr %></p>
+    </div>
+   </div>
+   <% }) %>
+  </div>
+ </div>
+</section>

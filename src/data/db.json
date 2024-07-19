@@ -65,6 +65,41 @@
    ]
   },
 
+  "handleMoney": {
+   "title": "You do the business, we’ll handle themoney.",
+   "descr": "With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.",
+
+   "segments": [
+    {
+     "title": "Rewards",
+     "descr": "The best credit cards offer some tantalizing combinations of promotions and prizes",
+     "icon": {
+      "name": "ic-star",
+      "width": 32,
+      "height": 30.4
+     }
+    },
+    {
+     "title": "100% Secured",
+     "descr": "We take proactive steps make sure your information and transactions are secure.",
+     "icon": {
+      "name": "ic-secure",
+      "width": 27.19,
+      "height": 32
+     }
+    },
+    {
+     "title": "Balance Transfer",
+     "descr": "A balance transfer credit card can save you a lot of money in interest charges.",
+     "icon": {
+      "name": "ic-transfer",
+      "width": 32,
+      "height": 32
+     }
+    }
+   ]
+  },
+
   "billingControl": {
    "title": "Easily control your billing & invoicing.",
    "descr": "Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.",

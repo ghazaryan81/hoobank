@@ -22,6 +22,10 @@
 @import url("./components/box.css");
 @import url("./components/block-info.css");
 
+@import url("./components/handle-money.css");
+@import url("./components/info-block-v1.css");
+@import url("./components/tab.css");
+
 @import url("./components/logos.css");
 @import url("./components/burger.css");
 @import url("./components/badge.css");
@@ -61,7 +65,8 @@ $sm: $mq.sm;
 
 html,
 body {
- @apply bg-gray-800
+ @apply cursor-default
+								bg-gray-800
 								font-400;
 }
 
