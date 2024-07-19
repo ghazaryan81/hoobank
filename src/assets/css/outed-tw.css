@@ -422,10 +422,7 @@ a{font-weight:400;font-weight:var(--font-weight-400);color:rgba(255, 255, 255, 0
 .billing-control__img{margin-top:1.5rem;aspect-ratio:531/457;width:53.1rem;}
 .billing-control__title{padding-bottom:1.4rem;padding-top:1.5rem;}
 .billing-control__descr{padding-bottom:3.5rem;}
-.billing-control__marketplace{
-  -webkit-text-decoration:none;
-  text-decoration:none;
- }
+.billing-control__marketplace{display:flex;-moz-column-gap:3.2rem;column-gap:3.2rem;}
 .block-info{display:grid;
 
  grid-template-columns:repeat(12, 1fr);
