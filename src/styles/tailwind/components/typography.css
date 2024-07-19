@@ -65,9 +65,7 @@ $sm: $mq.sm;
   @apply text-[1.8rem]
 									leading-[120%];
 
-  @apply xl:text-[1.8rem];
-
-  @apply lg:text-[1.8rem];
+  @apply lg:text-[1.6rem];
 
   @apply md:text-[1.4rem]
 									md:leading-[140%];

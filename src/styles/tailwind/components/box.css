@@ -51,16 +51,14 @@
 									rounded-[20px];
 
   @apply px-[4rem]
-									py-[59px];
+									py-[5.9rem];
 
   @apply xl:px-[4rem]
-									xl:py-[59px];
+									xl:py-[4rem];
 
-  @apply lg:px-[2rem]
-									lg:py-[4remn];
+  @apply lg:px-[2rem];
 
-  @apply md:px-[2.5rem]
-									md:py-[4rem];
+  @apply md:px-[2.5rem];
 
   &:hover:after {
    @apply opacity-100;
