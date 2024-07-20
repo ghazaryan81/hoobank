@@ -6,6 +6,7 @@ const {
 } = paths;
 
 const {
+
   sections: {
 				copyright,
 				handleMoney,
@@ -25,7 +26,8 @@ const {
     footer,
     misc
   },
-  menu
+  menu,
+		tag,
 } = data;
 
 const headData = { appName, appThemeColor, appTitleColor,
@@ -36,16 +38,18 @@ const headData = { appName, appThemeColor, appTitleColor,
  <%- include("view-tmpl/head.html", headData); %>
  <body>
   <noscript><%=misc.nojs %></noscript>
+
   <!-- prettier-ignore -->
   <div class="wrapper">
 			<%- include("view-tmpl/header.html",                { svg, menu }); %>
-   <%- include("view-tmpl/partners.html",              { partners, svg }); %>
-   <%- include("view-tmpl/testimonials.html",          { testimonials, svg, img }); %>
-   <%- include("view-tmpl/counter.html",               { counter }); %>
-   <%- include("view-tmpl/get-started.html",           { getStarted }); %>
-   <%- include("view-tmpl/card-deal.html",             { cardDeal, svg, img }); %>
-   <%- include("view-tmpl/billing-control.html",       { billingControl, svg, img }); %>
+			<%- include("view-tmpl/present.html",               { present, svg, img, tag }); %>
+			<%- include("view-tmpl/counter.html",               { counter }); %>
    <%- include("view-tmpl/handle-money.html",          { handleMoney, svg, img }); %>
+   <%- include("view-tmpl/billing-control.html",       { billingControl, svg, img }); %>
+   <%- include("view-tmpl/card-deal.html",             { cardDeal, svg, img }); %>
+   <%- include("view-tmpl/testimonials.html",          { testimonials, svg, img }); %>
+   <%- include("view-tmpl/partners.html",              { partners, svg }); %>
+   <%- include("view-tmpl/get-started.html",           { getStarted }); %>
 			<%- include("view-tmpl/footer.html",                { footer, copyright, svg, img }); %>
   </div>
  </body>
