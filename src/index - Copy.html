@@ -1,0 +1,84 @@
+<!-- prettier-ignore -->
+<%
+const {
+  in: { assets, pic, img, svg },
+  out: { styles }
+} = paths;
+
+const {
+  sections: {
+				copyright,
+				handleMoney,
+				billingControl,
+				testimonials,
+				getStarted,
+				counter,
+				partners,
+				cardDeal,
+    header,
+    present,
+    about,
+    services,
+    team,
+    contacts,
+    prices,
+    footer,
+    misc
+  },
+  menu
+} = data;
+
+const headData = { appName, appThemeColor, appTitleColor,
+																			appMaskIcon, assets, pic, img, svg, styles }
+%>
+<!doctype html>
+<html lang="en" translate="no" class="notranslate">
+ <%- include("view-tmpl/head.html", headData); %>
+ <body>
+  <noscript><%=misc.nojs %></noscript>
+
+  <!-- prettier-ignore -->
+  <div class="wrapper">
+
+
+   <footer class="main-footer s10">
+    <div class="fix footer-blocks">
+     <div class="footer-blocks__it footer-blocks__it--1">
+      <%- include("view-tmpl/components/logo.html", { svg, size: 266 }); %>
+      <p class="descr-v1 footer-blocks__descr">
+       <%= footer.descr %>
+      </p>
+     </div>
+     <div class="footer-blocks__it footer-blocks__it--2">
+      <h4 class="footer-blocks__title">Usefull Links</h4>
+      <ul class="footer-blocks__ul">
+       <li><a href="#" class="link">Content</a></li>
+       <li><a href="#" class="link">How it Works</a></li>
+       <li><a href="#" class="link">Create</a></li>
+       <li><a href="#" class="link">Explore</a></li>
+       <li><a href="#" class="link">Terms & Services</a></li>
+      </ul>
+     </div>
+     <div class="footer-blocks__it footer-blocks__it--3">
+      <h4 class="footer-blocks__title">Community</h4>
+      <ul class="footer-blocks__ul">
+       <li><a href="#" class="link">Help Center</a></li>
+       <li><a href="#" class="link">Partners</a></li>
+       <li><a href="#" class="link">Suggestions</a></li>
+       <li><a href="#" class="link">Blog</a></li>
+       <li><a href="#" class="link">Newsletters</a></li>
+      </ul>
+     </div>
+     <div class="footer-blocks__it footer-blocks__it--4">
+      <h4 class="footer-blocks__title">Partner</h4>
+      <ul class="footer-blocks__ul">
+       <li><a href="#" class="link">Our Partner</a></li>
+       <li><a href="#" class="link">Become a Partner</a></li>
+      </ul>
+     </div>
+    </div>
+    <%- include("view-tmpl/copyright.html", { copyright, svg, img }); %>
+   </footer>
+  </div>
+ </body>
+</html>

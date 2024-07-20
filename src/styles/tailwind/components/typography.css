@@ -110,7 +110,8 @@ $sm: $mq.sm;
 
  .link {
   @apply text-[1.6rem]
-									leading-[120%];
+									leading-[120%]
+									text-white/70;
 
   @apply xl:text-[1.6rem];
 

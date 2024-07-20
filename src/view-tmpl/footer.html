@@ -1,0 +1,22 @@
+<footer class="main-footer s10">
+ <div class="fix footer-blocks">
+  <div class="footer-blocks__it footer-blocks__it--1">
+   <%- include("view-tmpl/components/logo.html", { svg, size: 266 }); %>
+   <p class="descr-v1 footer-blocks__descr"><%= footer.descr %></p>
+  </div>
+
+  <% footer.segments.forEach((item, index) => { %>
+  <div class="footer-blocks__it footer-blocks__it--<%=index+2 %>">
+   <h4 class="footer-blocks__title"><%=item.title %></h4>
+   <ul class="footer-blocks__ul">
+    <% item.list.forEach((item, index) => { %>
+    <li>
+     <a href="<%=item.href %>" class="link"><%=item.title %></a>
+    </li>
+    <% }) %>
+   </ul>
+  </div>
+  <% }) %>
+ </div>
+ <%- include("copyright.html", { copyright, svg, img }); %>
+</footer>
