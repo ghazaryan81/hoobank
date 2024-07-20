@@ -72,5 +72,84 @@ body {
 
 a {
  @apply font-400
-								text-white/70;
+								text-white;
+}
+
+.copyright {
+ &__fix {
+  @apply flex
+									justify-between
+									pb-[3rem]
+									pt-[3.2rem];
+
+  @apply md:pt-[3rem]
+									xl:pt-[3.5rem];
+
+  @apply md:flex-col
+									md:items-center;
+ }
+
+ &__txt {
+  @apply tracking-[-0.023rem];
+  @apply xl:tracking-[-0.023rem];
+
+  @apply md:text-center;
+  @apply md:pb-[3rem];
+ }
+
+ &__all-rights {
+  @apply md:block;
+ }
+}
+
+.txt-logo {
+ @apply font-600;
+
+ &__1 {
+  @apply text-aqua-600;
+ }
+
+ &__2 {
+  @apply text-white/80;
+ }
+}
+
+.soc-links {
+ @apply flex
+								max-w-[17.6rem]
+								items-center
+								justify-between
+								gap-x-[3rem];
+
+ &__it {
+  @apply relative
+									left-0
+									top-0
+									z-[1]
+									inline-block
+									h-[2.1rem]
+									w-[2.1rem]
+									text-white;
+
+  @apply transition-transform
+									duration-[0.16s]
+									ease-linear;
+
+  @apply after:absolute
+									after:inset-0
+									after:z-[-1]
+									after:scale-[2.2]
+									after:rounded-[50%]
+									after:bg-grad-aqua-r-100
+									after:opacity-0
+									after:shadow-aqua-100
+									after:content-[""];
+
+  @apply after:transition-opacity
+									after:duration-[0.16s]
+									after:ease-linear;
+
+  @apply hover:scale-[0.85]
+									hover:after:opacity-100;
+ }
 }

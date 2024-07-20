@@ -1,4 +1,4 @@
-/* .ic {
+.ic {
  &-inst {
   @apply aspect-[2.1/2.1]
 									w-[2.1rem];
@@ -59,7 +59,6 @@
 									w-[2.099rem];
  }
 }
- */
 
 .ic-quote {
  @apply text-aqua-500;
