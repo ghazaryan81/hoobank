@@ -1,12 +1,17 @@
 .tag {
- @apply caption-v2
-								inline-flex
+ @apply inline-flex
 								items-center
-								gap-x-[15px]
+								gap-x-[1.5rem]
 								rounded-[10px]
 								px-[1.3rem]
-								py-[0.9rem]
+								py-[0.6rem]
+								text-[1.8rem]
 								text-white;
+
+ @apply md:gap-x-[2.2rem]
+								md:pb-[0.6rem]
+								md:pt-[1rem]
+								md:text-[1.39rem];
 
  background: svg-load("../../../assets/svg/gradient-tag.svg");
 }

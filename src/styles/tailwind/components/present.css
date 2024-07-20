@@ -1,0 +1,103 @@
+.present {
+ &__fix {
+  @apply relative
+									right-0
+									top-0;
+
+  @apply grid
+									pb-[25rem]
+									pt-[7.2rem];
+
+  @apply xl:pb-[3.5rem]
+									xl:pt-[3.5rem];
+
+  grid-template-columns: repeat(12, 1fr);
+
+  grid-template-areas:
+   "a a a a a a a d d d d d"
+   "b b b b b b b d d d d d"
+   "c c c c c c c d d d d d"
+   "e e e e e e e d d d d d";
+
+  @screen md {
+   grid-template-areas:
+    "a a a a a a a a a a a a"
+    "b b b b b b b b b b b b"
+    "d d d d d d d d d d d d"
+    "c c c c c c c c c c c c"
+    "e e e e e e e e e e e e";
+  }
+ }
+
+ &__block-1 {
+  grid-area: a;
+  @apply pb-[1.3rem]
+									md:pb-[1.5rem];
+ }
+
+ &__block-2 {
+  grid-area: b;
+
+  @apply relative
+									left-0
+									top-0
+									pb-[3.9rem];
+
+  .btn-unique {
+   @apply absolute
+										left-[calc(100%_-_16.8rem)]
+										top-[5.67rem];
+
+   @apply xl:left-[calc(100%_-_13.3rem)]
+									 xl:top-[3.13rem];
+
+   @apply lg:left-[calc(100%_-_9.4rem)]
+										lg:top-[2.33rem];
+
+   @apply md:left-[calc(100%_-_6.9rem)]
+										md:top-[1.23rem];
+  }
+ }
+
+ &__block-3 {
+  grid-area: c;
+ }
+
+ &__block-4 {
+  grid-area: d;
+
+  @apply absolute
+									left-[-9.3rem]
+									top-0
+									w-[67rem];
+
+  @screen xl {
+   @apply left-[-4.9rem]
+										top-0
+										w-[54.9rem];
+  }
+
+  @screen lg {
+   @apply left-[-3.5rem]
+									 top-[-0.1rem]
+									 w-[42.4rem];
+  }
+
+  @screen md {
+   @apply relative
+										left-[-2.7rem]
+										top-[-1.7rem]
+										w-[109%];
+  }
+ }
+
+ &__title {
+  @apply md:max-w-[21.8rem];
+ }
+
+ &__descr {
+  @apply max-w-[48.3rem];
+  @apply lg:max-w-[36.35rem];
+  @apply md:max-w-full;
+ }
+}

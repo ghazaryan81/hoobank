@@ -47,9 +47,9 @@
 
 @import url("./components/copyright.css");
 @import url("./components/footer.css");
+@import url("./components/present.css");
 
 @tailwind base;
-/* @tailwind preflight; */
 @tailwind components;
 @tailwind utilities;
 
@@ -71,6 +71,10 @@ body {
  @apply cursor-default
 								bg-gray-800
 								font-400;
+}
+
+body {
+ @apply overflow-x-hidden;
 }
 
 a {

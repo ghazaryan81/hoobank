@@ -6,6 +6,10 @@
   "appMaskIcon": "#ff0000"
  },
 
+ "tag": {
+  "label": ["20%", "DISCOUNT FOR", "1 MONTH", "ACCOUNT"]
+ },
+
  "menu": [
   {
    "id": 1,
@@ -243,12 +247,9 @@
   },
 
   "present": {
-   "title": "For Your Pet’s Natural Life & Care",
-   "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt",
-   "buttons": ["Our Services", "Make Appointment"],
-   "tag": {
-    "label": ["20%", "DISCOUNT FOR", "1 MONTH", "ACCOUNT"]
-   }
+   "title": ["The Next", "Generation", " Payment Method."],
+   "descr": "Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.",
+   "buttons": ["Our Services", "Make Appointment"]
   },
 
   "footer": {
