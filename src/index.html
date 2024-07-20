@@ -7,6 +7,7 @@ const {
 
 const {
   sections: {
+				copyright,
 				handleMoney,
 				billingControl,
 				testimonials,
@@ -35,6 +36,7 @@ const headData = { appName, appThemeColor, appTitleColor,
  <%- include("view-tmpl/head.html", headData); %>
  <body>
   <noscript><%=misc.nojs %></noscript>
+
   <!-- prettier-ignore -->
   <div class="wrapper">
 			<%- include("view-tmpl/header.html",                { svg, menu }); %>
@@ -45,6 +47,7 @@ const headData = { appName, appThemeColor, appTitleColor,
    <%- include("view-tmpl/card-deal.html",             { cardDeal, svg, img }); %>
    <%- include("view-tmpl/billing-control.html",       { billingControl, svg, img }); %>
    <%- include("view-tmpl/handle-money.html",          { handleMoney, svg, img }); %>
+   <%- include("view-tmpl/copyright.html",             { copyright, svg, img }); %>
   </div>
  </body>
 </html>

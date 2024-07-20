@@ -65,6 +65,46 @@
    ]
   },
 
+  "copyright": {
+   "title": "Copyright ©",
+   "logoText": ["Hoo", "Bank"],
+   "reserved": "All Rights Reserved.",
+   "segments": [
+    {
+     "href": "#",
+     "icon": {
+      "name": "ic-inst",
+      "width": 21,
+      "height": 21
+     }
+    },
+    {
+     "href": "#",
+     "icon": {
+      "name": "ic-fb",
+      "width": 21,
+      "height": 21
+     }
+    },
+    {
+     "href": "#",
+     "icon": {
+      "name": "ic-tw",
+      "width": 23,
+      "height": 19
+     }
+    },
+    {
+     "href": "#",
+     "icon": {
+      "name": "ic-in",
+      "width": 23,
+      "height": 19
+     }
+    }
+   ]
+  },
+
   "handleMoney": {
    "title": "You do the business, we’ll handle themoney.",
    "descr": "With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.",

@@ -1,0 +1,33 @@
+<section class="copyright s11">
+ <div class="fix copyright__fix">
+  <!-- prettier-ignore -->
+  <p class="descr-v1 copyright__txt">
+      <%= copyright.title %> <%= new Date().getFullYear() %>
+      <span class="txt-logo">
+       <span class="txt-logo__1">
+								<%= copyright.logoText[0] %>
+							</span>
+							<span class="txt-logo__2">
+								<%= copyright.logoText[1] %>
+							</span>
+						</span>.
+      <span class="copyright__all-rights">
+							<%= copyright.reserved %>
+						</span>
+     </p>
+
+  <span class="soc-links">
+   <% copyright.segments.forEach((item, index) => { %>
+   <a href="<%=item.href %>" class="soc-links__it">
+    <svg
+     class="<%=item.icon.name %>"
+     width="<%=item.icon.width %>"
+     height="<%=item.icon.height %>"
+    >
+     <use xlink:href="<%= svg %>/sprite-ic.svg#<%=item.icon.name %>"></use>
+    </svg>
+   </a>
+   <% }) %>
+  </span>
+ </div>
+</section>
