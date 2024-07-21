@@ -18,7 +18,11 @@
 
   <span class="soc-links">
    <% copyright.segments.forEach((item, index) => { %>
-   <a href="<%=item.href %>" class="soc-links__it">
+   <a
+    href="social network page in the <%=item.href %>"
+    class="soc-links__it"
+    aria-label="<%=item.href %>"
+   >
     <svg
      class="<%=item.icon.name %>"
      width="<%=item.icon.width %>"

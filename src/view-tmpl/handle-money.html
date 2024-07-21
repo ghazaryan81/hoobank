@@ -7,8 +7,13 @@
    <p class="descr-v1 handle-money__descr"><%= handleMoney.descr %></p>
   </div>
   <div class="info-block-v1__3">
-   <%- include("view-tmpl/components/btn.html", { btn: { label: "GetStarted",
-   classes: [ "btn--primary", "btn--size-xl", "handle-money__btn" ] } }); %>
+   <a
+    href="#"
+    class="btn btn--primary btn--size-xl handle-money__btn"
+    aria-label="Get Started Payment Method"
+   >
+    Get Started
+   </a>
   </div>
   <div class="info-block-v1__4">
    <% handleMoney.segments.forEach((item, index) => { %>
@@ -23,7 +28,7 @@
      </svg>
     </span>
     <div class="tab__info">
-     <h4 class="tab__title"><%= item.title %></h4>
+     <div class="tab__title"><%= item.title %></div>
      <p class="descr-v2 tab__descr"><%= item.descr %></p>
     </div>
    </div>

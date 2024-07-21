@@ -3,18 +3,14 @@
   <div class="card-deal__info">
    <h2 class="card-deal__title"><%=cardDeal.title %></h2>
    <p class="descr-v1 card-deal__descr"><%=cardDeal.descr %></p>
-   <!-- prettier-ignore -->
    <div class="card-deal__btn-alignment">
-      	<%- include(
-								"view-tmpl/components/btn.html",
-								{
-									btn: {
-									label: "Get Started",
-									classes: ["btn--primary", "btn--size-xl"]}
-								}
-								);
-							%>
-     	</div>
+    <a
+     href="#"
+     class="btn btn--primary btn--size-xl"
+     aria-label="Get Started Payment Method"
+     >Get Started</a
+    >
+   </div>
   </div>
   <img
    src="<%=img %>/<%=cardDeal.img.src %>"

@@ -76,6 +76,7 @@
    "segments": [
     {
      "href": "#",
+     "name": "instagram",
      "icon": {
       "name": "ic-inst",
       "width": 21,
@@ -84,6 +85,7 @@
     },
     {
      "href": "#",
+     "name": "facebook",
      "icon": {
       "name": "ic-fb",
       "width": 21,
@@ -92,6 +94,7 @@
     },
     {
      "href": "#",
+     "name": "twitter",
      "icon": {
       "name": "ic-tw",
       "width": 23,
@@ -100,6 +103,7 @@
     },
     {
      "href": "#",
+     "name": "linkedin",
      "icon": {
       "name": "ic-in",
       "width": 23,
