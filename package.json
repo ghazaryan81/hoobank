@@ -117,7 +117,7 @@
     "tsx": "^4.11.0",
     "typescript-plugin-css-modules": "^5.1.0",
     "uuid": "^9.0.1",
-    "vite-imagetools": "^7.0.2",
+    "vite-imagetools": "^3.0.1",
     "vite-plugin-ejs": "^1.7.0",
     "vite-plugin-full-reload": "^1.1.0",
     "vite-plugin-minify": "^1.5.2",

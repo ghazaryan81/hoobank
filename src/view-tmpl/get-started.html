@@ -5,11 +5,13 @@
     <h2><%- getStarted.title %></h2>
     <p class="descr-v1 get-started__info-descr"><%- getStarted.descr %></p>
    </div>
-   <%-
-			include("view-tmpl/components/btn.html",
-			{
-				btn: {label: getStarted.btnLabel, classes: ["btn--primary", "btn--size-xl"]}
-			});
-			%></div>
+   <a
+    href="#"
+    class="btn btn--primary btn--size-xl"
+    aria-label="Get Started Payment Method"
+   >
+    <%- getStarted.btnLabel %>
+   </a>
+  </div>
  </div>
 </section>

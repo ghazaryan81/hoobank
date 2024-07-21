@@ -1,9 +1,10 @@
 .btn {
- @apply text-gray-800;
+ @apply inline-block
+								text-gray-800;
 
  &--primary {
-  background: svg-load("../../../assets/svg/gradient-btn.svg");
   @apply btn-hover;
+  background: svg-load("../../../assets/svg/gradient-btn.svg");
  }
 
  &--size-xl {
