@@ -11,69 +11,55 @@
 }
 
 .main-nav {
- @media (max-width: $xl) {
-  text-decoration: none;
+ @apply md:relative
+								md:right-0
+								md:top-0
+								md:translate-x-full
+								md:translate-y-0;
+
+ @apply md:fixed
+								md:right-0
+								md:top-0
+								md:z-[100]
+								md:h-full
+								md:w-full
+								md:max-w-[35rem]
+								md:bg-black
+								md:shadow-aqua-200;
+
+ @screen md {
+  transition: cubic-bezier(0.76, 0, 0.24, 1) transform 0.26s;
  }
 
- @media (max-width: $lg) {
-  text-decoration: none;
- }
+ .list-links {
+  @apply md:m-[2rem]
+									md:flex-col
+									md:p-[2rem];
 
- @media (max-width: $md) {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  max-width: 350px;
-  background: #000;
-  box-shadow: 0px 0px 34px -12px rgba(0, 238, 255, 0.6);
+  li {
+   @apply md:rounded-[10px]
+										md:border-b
+										md:border-solid
+										md:border-b-white/30;
 
-  .list-links {
-   flex-direction: column;
-   margin: 20px;
-   padding: 20px;
+   .link {
+    @apply md:relative
+											md:left-0
+											md:top-0
+											md:z-[1]
+											md:block
+											md:rounded-[inherit]
+											md:p-[1.5rem];
 
-   li {
-    border-bottom: solid rgba(255, 255, 255, 0.2) 1px;
-    border-radius: 10px;
+    @apply md:after:absolute
+											md:after:inset-0
+											md:after:z-[-1]
+											md:after:rounded-[inherit]
+											md:after:bg-grad-aqua-r-100
+											md:after:opacity-0
+											md:after:content-[""];
 
-    .link {
-     display: block;
-     padding: 15px;
-     border-radius: inherit;
-     position: relative;
-     top: 0;
-     left: 0;
-     z-index: 1;
-
-     &:after {
-      border-radius: inherit;
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      z-index: -1;
-      opacity: 0;
-      background: radial-gradient(
-       64.33% 64.33% at 71.16% 35.69%,
-       rgb(222, 249, 250) 0.8877529762685299%,
-       rgb(190, 243, 245) 17.229999601840973%,
-       rgb(157, 237, 240) 42.03999936580658%,
-       rgb(125, 231, 235) 55.11999726295471%,
-       rgb(92, 225, 230) 71.5399980545044%,
-       rgb(51, 187, 207) 100%
-      );
-     }
-
-     &:hover {
-      &:after {
-       opacity: 0.7;
-      }
-     }
-    }
+    @apply md:hover:after:opacity-70;
    }
   }
  }

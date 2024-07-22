@@ -40,6 +40,7 @@ const headData = { appName, appThemeColor, appTitleColor,
   <noscript><%=misc.nojs %></noscript>
   <!-- prettier-ignore -->
   <div data-scroll-container>
+					<%- include("view-tmpl/header.html",                { svg, menu }); %>
 					<%- include("view-tmpl/present.html",               { present, svg, img, tag }); %>
 					<%- include("view-tmpl/counter.html",               { counter }); %>
 					<%- include("view-tmpl/handle-money.html",          { handleMoney, svg, img }); %>

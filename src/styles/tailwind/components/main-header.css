@@ -9,5 +9,21 @@
 									py-[3.09rem];
 
   @apply lg:flex-col;
+
+  &:has(input.menu-toggle-input:checked) {
+   svg {
+    @apply rotate-45;
+
+    .burger__line-bottom,
+    .burger__line-top {
+     stroke-dashoffset: -68px;
+    }
+   }
+
+   .main-nav {
+    @apply translate-x-0
+											translate-y-0;
+   }
+  }
  }
 }
