@@ -1,0 +1,16 @@
+.rings {
+ @apply absolute
+								right-[6.7rem]
+								top-0
+								z-[1]
+								w-[74.2%];
+
+ @apply xl:right-[5.5rem]
+								xl:w-[74.1%];
+
+ @apply lg:right-[3.7rem]
+								lg:w-[74.2%];
+
+ @apply md:right-[3.7rem]
+								md:w-[74.2%];
+}

@@ -1,9 +1,10 @@
 .tab {
- @apply relative
+ @apply h4
+								relative
 								left-0
 								top-0
 								z-[1]
-								mb-[10px]
+								mb-[1rem]
 								flex
 								gap-x-[2rem]
 								rounded-[20px]
@@ -48,6 +49,6 @@
   @apply block
 									pb-[1rem];
 
-  @apply md:pb-[1.2rem];
+  @apply md:pb-[0.2rem];
  }
 }

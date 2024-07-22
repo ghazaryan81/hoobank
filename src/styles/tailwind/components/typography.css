@@ -84,6 +84,7 @@ $sm: $mq.sm;
 
  .descr-v2 {
   @apply text-[1.6rem]
+									font-400
 									leading-[150%]
 									text-white/70;
 
