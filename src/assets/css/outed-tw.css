@@ -1,4 +1,4 @@
-:root{ --font-weight-300:300; --font-weight-400:400; --font-weight-500:500; --font-weight-600:600; --opacity-0:0; --opacity-10:0.1; --opacity-20:0.2; --opacity-30:0.3; --opacity-40:0.4; --opacity-60:0.6; --opacity-70:0.7; --opacity-80:0.8; --opacity-100:1; --font-size-62-5p:62.5%; --font-family-primary:Poppins, sans-serif; --max-width-xl:120.2rem; --max-width-lg:99.2rem; --max-width-md:76.8rem; --max-width-sm:32rem; --spacing-2:0.2rem; --spacing-8:0.8rem; --spacing-16:1.6rem; --spacing-20:2rem; --spacing-32:3.2rem; --spacing-sides:1.6rem; --spacing-sides-xl:1.6rem; --spacing-sides-lg:1.6rem; --spacing-sides-md:1.6rem; --spacing-gutter:1.8rem; --spacing-gutter-xl:1.2rem; --spacing-gutter-lg:0.8rem; --spacing-gutter-md:1.2rem; --background-image-grad-aqua-r-100:radial-gradient(64.33% 64.33% at 71.16% 35.69%, rgb(222, 249, 250) 0.8877529762685299%, rgb(190, 243, 245) 17.229999601840973%, rgb(157, 237, 240) 42.03999936580658%, rgb(125, 231, 235) 55.11999726295471%, rgb(92, 225, 230) 71.5399980545044%, rgb(51, 187, 207) 100%); --box-shadow-aqua-100:0 -2px 35px 0 rgba(0, 246, 255, 0.65); --z-index-10:10;}
+:root{ --font-weight-300:300; --font-weight-400:400; --font-weight-500:500; --font-weight-600:600; --opacity-0:0; --opacity-10:0.1; --opacity-20:0.2; --opacity-30:0.3; --opacity-40:0.4; --opacity-60:0.6; --opacity-70:0.7; --opacity-80:0.8; --opacity-100:1; --font-size-62-5p:62.5%; --font-family-primary:Poppins, sans-serif; --max-width-xl:120.2rem; --max-width-lg:99.2rem; --max-width-md:76.8rem; --max-width-sm:32rem; --spacing-2:0.2rem; --spacing-4:0.4rem; --spacing-8:0.8rem; --spacing-16:1.6rem; --spacing-20:2rem; --spacing-32:3.2rem; --spacing-sides:1.6rem; --spacing-sides-xl:1.6rem; --spacing-sides-lg:1.6rem; --spacing-sides-md:1.6rem; --spacing-gutter:1.8rem; --spacing-gutter-xl:1.2rem; --spacing-gutter-lg:0.8rem; --spacing-gutter-md:1.2rem; --background-image-grad-aqua-r-100:radial-gradient(64.33% 64.33% at 71.16% 35.69%, rgb(222, 249, 250) 0.8877529762685299%, rgb(190, 243, 245) 17.229999601840973%, rgb(157, 237, 240) 42.03999936580658%, rgb(125, 231, 235) 55.11999726295471%, rgb(92, 225, 230) 71.5399980545044%, rgb(51, 187, 207) 100%); --box-shadow-aqua-100:0 -2px 35px 0 rgba(0, 246, 255, 0.65); --z-index-10:10;}
 @font-face{
   font-family:"Poppins";
   src:url("../../assets/fonts/Poppins/Poppins-Regular.eot?#iefix") format("embedded-opentype") , url("../../assets/fonts/Poppins/Poppins-Regular.woff2") format("woff2") , url("../../assets/fonts/Poppins/Poppins-Regular.woff") format("woff") , url("../../assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype") , url("../../assets/fonts/Poppins/Poppins-Regular.otf") format("opentype") , url("../../assets/fonts/Poppins/Poppins-Regular.f.svg#Poppins-Regular") format("svg");
@@ -399,6 +399,10 @@ body::-webkit-resizer{
   padding-bottom:3.9rem;
  }
 .present__block-2 .btn-unique {position:absolute;left:calc(100% - 16.8rem);top:5.67rem;
+}
+.present__block-2 .btn-unique__label {position:relative;left:0px;top:0px;
+}
+.present__block-2 .btn-unique__arrow {position:absolute;right:0.4rem;right:var(--spacing-4);top:0.4rem;top:var(--spacing-4);height:1.136rem;width:1.245rem;--tw-text-opacity:1;color:rgba(51, 187, 207, 1);color:rgba(51, 187, 207, var(--tw-text-opacity));
 }
 .present__block-3{
   grid-area:c;
@@ -1101,7 +1105,9 @@ a {font-weight:400;font-weight:var(--font-weight-400);--tw-text-opacity:1;color:
  }
 .present__block-1 {padding-bottom:1.5rem;
  }
-.present__block-2 .btn-unique {left:calc(100% - 6.9rem);top:1.23rem;
+.present__block-2 .btn-unique {left:calc(100% - 7.3rem);top:0.23rem;
+ }
+.present__block-2 .btn-unique__label {left:1.2rem;top:-0.1rem;
  }
 .present__block-4 {position:relative;left:-2.7rem;top:-1.7rem;width:109%;
  }
