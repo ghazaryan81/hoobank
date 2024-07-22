@@ -1,5 +1,7 @@
 .btn {
- @apply inline-block
+ @apply inline-flex
+								items-center
+								justify-center
 								text-gray-800;
 
  &--primary {

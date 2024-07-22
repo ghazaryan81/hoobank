@@ -1,0 +1,74 @@
+.cards {
+ @apply relative
+								left-0
+								top-0
+								block
+								h-[45.1rem]
+								w-[51.3rem];
+
+ @apply xl:h-[37rem]
+								xl:w-[42.1rem];
+
+ @apply lg:h-[28.4rem]
+								lg:w-[32.2rem];
+
+ @apply md:h-[25.5rem]
+								md:w-[28.8rem];
+
+ &__4 {
+  @apply absolute
+									right-0
+									top-16
+									z-10
+									block
+									h-auto
+									w-[49.90253411306043%];
+
+  @apply xl:right-0
+									xl:top-[3.2rem];
+
+  @apply lg:right-0
+									lg:top-[3.2rem];
+
+  @apply md:right-0
+									md:top-[3.2rem];
+ }
+
+ &__5 {
+  @apply absolute
+									left-0
+									top-32
+									z-[11]
+									block
+									h-auto
+									w-[37.23196881091618%];
+
+  @apply xl:left-0
+									xl:top-[6.4rem];
+
+  @apply lg:left-0
+								 lg:top-20;
+
+  @apply md:left-0
+									md:top-[4.5rem];
+ }
+
+ &__6 {
+  @apply absolute
+									right-[15.9rem]
+									top-[31rem]
+									z-[12]
+									block
+									h-auto
+									w-[49.34086629001883%];
+
+  @apply xl:left-[8.4rem]
+									xl:top-[25.5rem];
+
+  @apply lg:left-[6.4rem]
+									lg:top-[19.6rem];
+
+  @apply md:left-[5.73rem]
+									md:top-[17.5rem];
+ }
+}

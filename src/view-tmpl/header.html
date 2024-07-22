@@ -1,8 +1,9 @@
+<!-- prettier-ignore -->
 <header class="main-header s1">
- <!-- prettier-ignore -->
  <div class="fix main-header__fix">
-		<%- include("view-tmpl/components/logo.html", { svg, size: 118 }); %>
-		<%- include("view-tmpl/components/menu.html", { menu }); %>
+  <%- include("view-tmpl/components/logo.html", { svg, size: 118 }); %>
+  <input type="checkbox" class="menu-toggle"/>
 		<%- include("view-tmpl/components/burger.html"); %>
-	</div>
+  <%- include("view-tmpl/components/menu.html", { menu }); %>
+ </div>
 </header>

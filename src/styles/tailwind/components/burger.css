@@ -9,6 +9,11 @@
 								transition-transform
 								duration-[0.4s];
 
+ @apply md:fixed
+								md:right-[1rem]
+								md:top-[0.5rem]
+								md:z-10;
+
  -webkit-tap-highlight-color: transparent;
 
  path {

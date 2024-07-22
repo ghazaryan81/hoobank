@@ -1,0 +1,46 @@
+.billing {
+ @apply relative
+								left-0
+								top-0
+								block
+								h-[45.7rem]
+								w-[53.1rem];
+
+ @apply xl:h-[37.4rem]
+								xl:w-[43.4rem];
+
+ @apply lg:h-[28.4rem]
+								lg:w-[33.3rem];
+
+ @apply md:h-[24.8rem]
+								md:w-[28.8rem];
+
+ &__card {
+  &-1 {
+   @apply absolute
+										right-[7.9rem]
+										top-0
+										z-[3]
+										h-auto
+										w-[42.74952919020716%];
+  }
+
+  &-2 {
+   @apply absolute
+										bottom-0
+										left-0
+										z-[2]
+										h-auto
+										w-[63.08851224105461%];
+  }
+
+  &-3 {
+   @apply absolute
+										bottom-0
+										right-0
+										z-[3]
+										h-auto
+										w-[61.01694915254237%];
+  }
+ }
+}
