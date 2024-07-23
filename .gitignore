@@ -15,7 +15,7 @@
 dist
 dist-ssr
 *.local
-/build
+#/build
 /zip
 
 # Bower package dependencies directory
