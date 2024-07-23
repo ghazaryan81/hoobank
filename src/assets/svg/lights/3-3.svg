@@ -1,15 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 412.19 500.2">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: url(#linear-gradient);
-      }
-    </style>
-    <linearGradient id="linear-gradient" x1="598.39" y1="-143.72" x2="943.39" y2="-143.72" gradientTransform="translate(970.68 75.94) rotate(156.61) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f4c4f3"/>
-      <stop offset="1" stop-color="#fc67fa"/>
-    </linearGradient>
-  </defs>
-  <path class="cls-1" d="m308.13,485.97h0c-87.44,37.83-188.98-2.39-226.81-89.83L14.22,241.03C-23.6,153.59,16.62,52.05,104.06,14.22h0c87.44-37.83,188.98,2.39,226.81,89.83l67.1,155.11c37.83,87.44-2.39,188.98-89.83,226.81Z"/>
+<svg
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ viewBox="0 0 412.19 500.2"
+>
+ <defs>
+  <style>
+   .cls-1 {
+    fill: url(#linear-gradient);
+   }
+  </style>
+  <linearGradient
+   id="linear-gradient"
+   x1="598.39"
+   y1="-143.72"
+   x2="943.39"
+   y2="-143.72"
+   gradientTransform="translate(970.68 75.94) rotate(156.61) scale(1 -1)"
+   gradientUnits="userSpaceOnUse"
+  >
+   <stop offset="0" stop-color="#f4c4f3" />
+   <stop offset="1" stop-color="#fc67fa" />
+  </linearGradient>
+ </defs>
+ <path
+  class="cls-1"
+  d="m308.13,485.97h0c-87.44,37.83-188.98-2.39-226.81-89.83L14.22,241.03C-23.6,153.59,16.62,52.05,104.06,14.22h0c87.44-37.83,188.98,2.39,226.81,89.83l67.1,155.11c37.83,87.44-2.39,188.98-89.83,226.81Z"
+ />
 </svg>

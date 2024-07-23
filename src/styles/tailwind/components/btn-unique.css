@@ -1,35 +1,42 @@
 .btn-unique {
- @apply relative
-								left-0
-								top-0
-								z-[1]
+ @apply absolute
+								left-[calc(100%_-_16.8rem)]
+								top-[5.67rem]
+								z-10
 								flex
 								h-[14rem]
 								w-[14rem]
 								items-center
-								rounded-[50%]
-								bg-grad-aqua-r-100
-								px-[3.4rem]
-								text-left;
+								justify-center
+								rounded-[100%];
 
  @apply xl:h-[11.5rem]
-								xl:w-[11.4rem]
-								xl:px-[2.4rem];
+								xl:w-[11.4rem];
 
  @apply lg:h-[8.8rem]
-								lg:w-[8.8rem]
-								lg:px-[1.4rem];
+								lg:w-[8.8rem];
 
  @apply md:h-[6.8rem]
-								md:w-[6.9rem]
-								md:px-[0.4rem];
+								md:w-[6.9rem];
 
- @apply after:absolute
-								after:inset-[2px]
-								after:z-[-2]
-								after:rounded-[inherit]
-								after:bg-gray-800
-								after:content-[""];
+ @apply xl:left-[calc(100%_-_13.3rem)]
+								xl:top-[3.13rem];
+
+ @apply lg:left-[calc(100%_-_9.4rem)]
+								lg:top-[2.33rem];
+
+ @apply md:left-[calc(100%_-_7.3rem)]
+								md:top-[0.23rem];
+
+ &:before {
+  @apply absolute
+									inset-0
+									h-full
+									w-full
+									rounded-[inherit]
+									opacity-0
+									content-[""];
+ }
 
  @apply before:absolute
 								before:inset-0
@@ -49,7 +56,79 @@
 
  @apply btn-hover;
 
+ &:after {
+  @apply absolute
+									inset-0
+									z-[-1]
+									aspect-[1]
+									w-full
+									rounded-[inherit]
+									bg-grad-aqua-r-100
+									p-[0.2rem]
+									content-[""];
+
+  -webkit-mask:
+   linear-gradient(#fff 0 0) content-box,
+   linear-gradient(#fff 0 0);
+
+  mask:
+   linear-gradient(#fff 0 0) content-box,
+   linear-gradient(#fff 0 0);
+
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+ }
+
  &__label {
-  @apply text-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @apply relative
+									left-0
+									top-0
+									flex
+									h-[5.4rem]
+									w-[6.7rem]
+									items-center
+									bg-grad-aqua-l-100
+									bg-clip-text
+									text-[1.8rem]
+									font-medium
+									leading-[130%];
+
+  @apply xl:h-[4.2rem]
+									xl:w-[5.2rem]
+									xl:text-[1.4rem];
+
+  @apply lg:h-[3.2rem]
+									lg:w-[4.1rem]
+									lg:text-[1.1rem];
+
+  @apply md:h-[3.0001rem]
+									md:w-[3.8rem]
+									md:text-[1.0001rem];
+ }
+
+ &__arrow {
+  @apply absolute
+									right-[0.3rem]
+									top-4
+									z-10
+									h-[1.136rem]
+									w-[1.245rem]
+								text-aqua-300;
+
+  @apply xl:right-[0.3rem]
+									xl:top-[7px]
+									xl:h-[0.917rem]
+									xl:w-[1.004rem];
+
+  @apply lg:right-[0.3rem]
+									lg:top-[6px]
+									lg:h-[0.68rem]
+									lg:w-[0.745rem];
+
+  @apply md:h-[0.586rem]
+									md:w-[0.642rem];
  }
 }
