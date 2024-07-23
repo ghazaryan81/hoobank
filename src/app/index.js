@@ -1,4 +1,6 @@
 import $ from "jquery";
+import LocomotiveScroll from "locomotive-scroll";
+// import Odometer from "odometer";
 
 $(function () {
   $("a:not(.list-links .link)").on("click", function (e) {
@@ -19,4 +21,7 @@ $(function () {
   });
 });
 
-// remove class active from link
+const scroll = new LocomotiveScroll({
+  el: document.querySelector("[data-scroll-container]"),
+  smooth: true
+});

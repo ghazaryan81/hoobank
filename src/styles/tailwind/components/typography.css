@@ -103,7 +103,7 @@ $sm: $mq.sm;
 									leading-[150%];
 
   @apply xl:text-[1.4rem];
-
+  src:;
   @apply lg:text-[1.1rem];
 
   @apply md:text-base;
@@ -113,6 +113,15 @@ $sm: $mq.sm;
   @apply text-[1.6rem]
 									leading-[120%]
 									text-white/70;
+
+  @apply transition-[color]
+									duration-[0.16s]
+									ease-linear
+									will-change-[color];
+
+  &:hover {
+   @apply text-aqua-300;
+  }
 
   @apply xl:text-[1.6rem];
 
