@@ -3,7 +3,7 @@
   <div class="counter__list">
    <% counter.segments.forEach((item, index) => { %>
    <div class="counter__item">
-    <h2 class="h3"><%= item.numb %></h2>
+    <div class="h3"><%= item.numb %></div>
     <span class="caption-v1 counter__caption"><%= item.caption %></span>
    </div>
    <% if (index < counter.segments.length-1) { %><span

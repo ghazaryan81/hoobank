@@ -42,39 +42,6 @@
 									left-0
 									top-0
 									pb-[3.9rem];
-
-  .btn-unique {
-   @apply absolute
-										left-[calc(100%_-_16.8rem)]
-										top-[5.67rem];
-
-   @apply xl:left-[calc(100%_-_13.3rem)]
-									 xl:top-[3.13rem];
-
-   @apply lg:left-[calc(100%_-_9.4rem)]
-										lg:top-[2.33rem];
-
-   @apply md:left-[calc(100%_-_7.3rem)]
-										md:top-[0.23rem];
-
-   &__label {
-    @apply relative
-											left-0
-											top-0;
-
-    @apply md:left-[1.2rem]
-											md:top-[-0.1rem];
-   }
-
-   &__arrow {
-    @apply absolute
-											right-4
-											top-4
-											h-[1.136rem]
-											w-[1.245rem]
-											text-aqua-600;
-   }
-  }
  }
 
  &__block-3 {

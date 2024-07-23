@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 195 324">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-    </style>
-  </defs>
-  <ellipse class="cls-1" cx="97.5" cy="162" rx="97.5" ry="162"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 195 324">
+ <defs>
+  <style>
+   .cls-1 {
+    fill: #fff;
+   }
+  </style>
+ </defs>
+ <ellipse class="cls-1" cx="97.5" cy="162" rx="97.5" ry="162" />
 </svg>
